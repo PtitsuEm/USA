@@ -130,7 +130,7 @@ Result: **0 errors, 109 warnings** (errors must be fixed before data changes shi
 
 ## Coverage summary
 
-- contacts.csv: 172 rows, 109 without a published email yet; statuses: needs_review=57, verified=115
+- contacts.csv: 172 rows, 109 without a published email yet; statuses: needs_review=55, verified=117
 - coverage.csv statuses: in_progress=110, needs_review=2, not_started=546, verified=116
 
 Remember: a format pass is not a verification pass. Every contact still needs ground-truth confirmation on the linked official source before its status moves beyond `needs_review` or reaches `verified` through a published official page.
