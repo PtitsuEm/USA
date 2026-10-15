@@ -171,3 +171,109 @@ ltgov-washington,Denny Heck,GOVERNOR_DEPUTY,Lieutenant Governor,state_territory,
 ltgov-west-virginia,Randy Smith,GOVERNOR_DEPUTY,President of the Senate and Lieutenant Governor,state_territory,West Virginia,,,West Virginia Legislature / Senate,,,,https://www.wvlegislature.gov/,2026-10-15,verified
 ltgov-wisconsin,Sara Rodriguez,GOVERNOR_DEPUTY,Lieutenant Governor,state_territory,Wisconsin,,,Office of the Lieutenant Governor of Wisconsin,,,,https://ltgov.wi.gov/,2026-10-15,verified
 ltgov-wyoming,Chuck Gray,GOVERNOR_DEPUTY,Secretary of State (Designated Successor),state_territory,Wyoming,,,Wyoming Secretary of State,,,,https://sos.wyo.gov/,2026-10-15,verified
+federal-oced-acting-director,Kelly Cummins,ENERGY_INVESTMENT_HEAD,"Acting Director, Office of Clean Energy Demonstrations (OCED)",federal,United States,,,U.S. Department of Energy,,,,https://www.energy.gov/person/kelly-cummins,2026-10-15,verified
+eda-head-alabama,Ellen McNair,EDA_HEAD,Secretary of Commerce,state_territory,Alabama,,,Alabama Department of Commerce,,(334) 242-0400,,https://commerce.alabama.gov/,2026-10-15,verified
+eda-head-alaska,Julie Sande,EDA_HEAD,Commissioner,state_territory,Alaska,,,"Alaska Department of Commerce, Community & Economic Development",,(907) 465-2500,,https://www.commerce.alaska.gov/web/,2026-10-15,verified
+eda-head-american-samoa,Petti Tagipo Matila,EDA_HEAD,Director of Commerce,state_territory,American Samoa,,,American Samoa Department of Commerce,,(684) 633-5155,,https://doc.as.gov/,2026-10-15,verified
+eda-head-arizona,Sandra Watson,EDA_HEAD,President & CEO,state_territory,Arizona,,,Arizona Commerce Authority,,(602) 845-1200,,https://www.azcommerce.com/,2026-10-15,verified
+eda-head-arkansas,Hugh McDonald,EDA_HEAD,Secretary of Commerce,state_territory,Arkansas,,,Arkansas Economic Development Commission,,(501) 682-1121,,https://www.arkansasedc.com/,2026-10-15,verified
+eda-head-california,Dee Dee Myers,EDA_HEAD,Senior Advisor and Director,state_territory,California,,,Governor’s Office of Business and Economic Development (GO-Biz),,(877) 345-4633,,https://business.ca.gov/,2026-10-15,verified
+eda-head-colorado,Eve Lieberman,EDA_HEAD,Executive Director,state_territory,Colorado,,,Colorado Office of Economic Development & International Trade,,(303) 892-3840,,https://oedit.colorado.gov/,2026-10-15,verified
+eda-head-connecticut,Daniel O'Keefe,EDA_HEAD,Commissioner,state_territory,Connecticut,,,Connecticut Department of Economic and Community Development,,(860) 500-2300,,https://portal.ct.gov/decd,2026-10-15,verified
+eda-head-florida,J. Alex Kelly,EDA_HEAD,Secretary of Commerce,state_territory,Florida,,,FloridaCommerce,,(850) 245-7105,,https://floridacommerce.myflorida.com/,2026-10-15,verified
+eda-head-georgia,Pat Wilson,EDA_HEAD,Commissioner,state_territory,Georgia,,,Georgia Department of Economic Development,,(404) 962-4000,,https://www.georgia.org/,2026-10-15,verified
+eda-head-guam,Melanie Mendiola,EDA_HEAD,CEO & Administrator,state_territory,Guam,,,Guam Economic Development Authority (GEDA),,(671) 647-4332,,https://investguam.com/,2026-10-15,verified
+eda-head-hawaii,James Kunane Tokioka,EDA_HEAD,Director,state_territory,Hawaii,,,"State of Hawaii Department of Business, Economic Development & Tourism",,(808) 586-2355,,https://dbedt.hawaii.gov/,2026-10-15,verified
+eda-head-idaho,Tom Kealey,EDA_HEAD,Director,state_territory,Idaho,,,Idaho Department of Commerce,,(208) 334-2470,,https://commerce.idaho.gov/,2026-10-15,verified
+eda-head-illinois,Kristin Richards,EDA_HEAD,Director,state_territory,Illinois,,,Illinois Department of Commerce & Economic Opportunity,,(217) 782-7500,,https://dceo.illinois.gov/,2026-10-15,verified
+eda-head-indiana,David Rosenberg,EDA_HEAD,Secretary of Commerce,state_territory,Indiana,,,Indiana Economic Development Corporation,,(317) 232-8800,,https://iedc.in.gov/,2026-10-15,verified
+eda-head-iowa,Debi Durham,EDA_HEAD,Director,state_territory,Iowa,,,Iowa Economic Development Authority,,(515) 348-6200,,https://www.iowaeda.com/,2026-10-15,verified
+eda-head-kansas,David Toland,EDA_HEAD,Secretary of Commerce,state_territory,Kansas,,,Kansas Department of Commerce,,(785) 296-3481,,https://www.kansascommerce.gov/,2026-10-15,verified
+eda-head-kentucky,Jeff Noel,EDA_HEAD,Secretary,state_territory,Kentucky,,,Kentucky Cabinet for Economic Development,,(502) 564-7670,,https://ced.ky.gov/,2026-10-15,verified
+eda-head-louisiana,Susan Bourgeois,EDA_HEAD,Secretary,state_territory,Louisiana,,,Louisiana Economic Development,,(225) 342-3000,,https://www.opportunitylouisiana.gov/,2026-10-15,verified
+eda-head-maine,Heather Johnson,EDA_HEAD,Commissioner,state_territory,Maine,,,Maine Department of Economic & Community Development,,(207) 624-9800,,https://www.maine.gov/decd/,2026-10-15,verified
+eda-head-maryland,Kevin Anderson,EDA_HEAD,Secretary of Commerce,state_territory,Maryland,,,Maryland Department of Commerce,,(410) 767-6300,,https://commerce.maryland.gov/,2026-10-15,verified
+eda-head-massachusetts,Yvonne Hao,EDA_HEAD,Secretary,state_territory,Massachusetts,,,Executive Office of Economic Development,,(617) 788-3610,,https://www.mass.gov/orgs/executive-office-of-economic-development,2026-10-15,verified
+eda-head-michigan,Quentin L. Messer Jr.,EDA_HEAD,CEO,state_territory,Michigan,,,Michigan Economic Development Corporation,,(888) 522-0103,,https://www.michiganbusiness.org/,2026-10-15,verified
+eda-head-minnesota,Matt Varilek,EDA_HEAD,Commissioner,state_territory,Minnesota,,,Minnesota Department of Employment and Economic Development,,(651) 259-7114,,https://mn.gov/deed/,2026-10-15,verified
+eda-head-mississippi,Bill Cork,EDA_HEAD,Executive Director,state_territory,Mississippi,,,Mississippi Development Authority,,(601) 359-3449,,https://mississippi.org/,2026-10-15,verified
+eda-head-missouri,Michelle Hataway,EDA_HEAD,Director,state_territory,Missouri,,,Missouri Department of Economic Development,,(573) 751-4962,,https://ded.mo.gov/,2026-10-15,verified
+eda-head-montana,Paul Green,EDA_HEAD,Director,state_territory,Montana,,,Montana Department of Commerce,,(406) 841-2700,,https://marketmt.com/,2026-10-15,verified
+eda-head-nebraska,K.C. Belitz,EDA_HEAD,Director,state_territory,Nebraska,,,Nebraska Department of Economic Development,,(402) 471-3111,,https://opportunity.nebraska.gov/,2026-10-15,verified
+eda-head-nevada,Tom Burns,EDA_HEAD,Executive Director,state_territory,Nevada,,,Nevada Governor’s Office of Economic Development,,(775) 687-9900,,https://goed.nv.gov/,2026-10-15,verified
+eda-head-new-hampshire,Taylor Caswell,EDA_HEAD,Commissioner,state_territory,New Hampshire,,,New Hampshire Department of Business & Economic Affairs,,(603) 271-2591,,https://www.nheconomy.com/,2026-10-15,verified
+eda-head-new-jersey,Tim Sullivan,EDA_HEAD,Chief Executive Officer,state_territory,New Jersey,,,New Jersey Economic Development Authority (NJEDA),,(609) 858-6700,,https://www.njeda.gov/,2026-10-15,verified
+eda-head-new-mexico,Rob Black,EDA_HEAD,Cabinet Secretary,state_territory,New Mexico,,,New Mexico Economic Development Department,,(505) 827-0300,,https://edd.newmexico.gov/,2026-10-15,verified
+eda-head-new-york,Hope Knight,EDA_HEAD,"President, CEO & Commissioner",state_territory,New York,,,Empire State Development,,(800) 782-8369,,https://esd.ny.gov/,2026-10-15,verified
+eda-head-north-carolina,Christopher Chung,EDA_HEAD,Chief Executive Officer,state_territory,North Carolina,,,Economic Development Partnership of North Carolina,,(919) 447-7777,,https://edpnc.com/,2026-10-15,verified
+eda-head-north-dakota,Josh Teigen,EDA_HEAD,Commissioner,state_territory,North Dakota,,,North Dakota Department of Commerce,,(701) 328-5300,,https://www.commerce.nd.gov/,2026-10-15,verified
+eda-head-northern-mariana-islands,Kimberly Camacho,EDA_HEAD,Secretary of Commerce,state_territory,Northern Mariana Islands,,,CNMI Department of Commerce,,(670) 664-3000,,https://commerce.gov.mp/,2026-10-15,verified
+eda-head-ohio,J.P. Nauseef,EDA_HEAD,President & CEO,state_territory,Ohio,,,JobsOhio,,(614) 224-6446,,https://www.jobsohio.com/,2026-10-15,verified
+eda-head-oklahoma,Ken McQueen,EDA_HEAD,Executive Director,state_territory,Oklahoma,,,Oklahoma Department of Commerce,,(405) 815-6552,,https://www.okcommerce.gov/,2026-10-15,verified
+eda-head-oregon,Sophia Zou,EDA_HEAD,Director,state_territory,Oregon,,,Business Oregon,,(503) 986-0123,,https://www.oregon.gov/biz/,2026-10-15,verified
+eda-head-pennsylvania,Rick Siger,EDA_HEAD,Secretary,state_territory,Pennsylvania,,,Pennsylvania Department of Community & Economic Development,,(717) 787-3405,,https://dced.pa.gov/,2026-10-15,verified
+eda-head-puerto-rico,Manuel Cidre,EDA_HEAD,Secretary,state_territory,Puerto Rico,,,Department of Economic Development and Commerce (DDEC),,(787) 758-4747,,https://www.ddec.pr.gov/,2026-10-15,verified
+eda-head-rhode-island,Liz Tanner,EDA_HEAD,Secretary of Commerce,state_territory,Rhode Island,,,Rhode Island Commerce Corporation,,(401) 278-9100,,https://commerceri.com/,2026-10-15,verified
+eda-head-south-carolina,Harry M. Lightsey III,EDA_HEAD,Secretary of Commerce,state_territory,South Carolina,,,South Carolina Department of Commerce,,(803) 737-0400,,https://www.sccommerce.com/,2026-10-15,verified
+eda-head-south-dakota,Joe Fiala,EDA_HEAD,Commissioner,state_territory,South Dakota,,,Governor’s Office of Economic Development,,(605) 773-3301,,https://sdgoed.com/,2026-10-15,verified
+eda-head-tennessee,Stuart McWhorter,EDA_HEAD,Commissioner,state_territory,Tennessee,,,Tennessee Department of Economic & Community Development,,(615) 741-1888,,https://tnecd.com/,2026-10-15,verified
+eda-head-texas,Adriana Cruz,EDA_HEAD,Executive Director,state_territory,Texas,,,Texas Economic Development & Tourism Office,,(512) 936-0100,,https://gov.texas.gov/business,2026-10-15,verified
+eda-head-us-virgin-islands,Wayne L. Biggs Jr.,EDA_HEAD,Chief Executive Officer,state_territory,U.S. Virgin Islands,,,USVI Economic Development Authority,,(340) 714-1700,,https://www.usvieda.org/,2026-10-15,verified
+eda-head-utah,Ryan Starks,EDA_HEAD,Executive Director,state_territory,Utah,,,Governor’s Office of Economic Opportunity,,(801) 538-8680,,https://business.utah.gov/,2026-10-15,verified
+eda-head-vermont,Lindsay Kurrle,EDA_HEAD,Secretary,state_territory,Vermont,,,Vermont Agency of Commerce & Community Development,,(802) 828-3211,,https://accd.vermont.gov/,2026-10-15,verified
+eda-head-virginia,Jason El Koubi,EDA_HEAD,President & CEO,state_territory,Virginia,,,Virginia Economic Development Partnership,,(804) 545-5600,,https://www.vedp.org/,2026-10-15,verified
+eda-head-washington,Mike Fong,EDA_HEAD,Director,state_territory,Washington,,,Washington State Department of Commerce,,(360) 725-4000,,https://www.commerce.wa.gov/,2026-10-15,verified
+eda-head-west-virginia,Mitch Carmichael,EDA_HEAD,Secretary of Economic Development,state_territory,West Virginia,,,West Virginia Department of Economic Development,,(304) 558-2234,,https://westvirginia.gov/,2026-10-15,verified
+eda-head-wisconsin,Missy Hughes,EDA_HEAD,Secretary & CEO,state_territory,Wisconsin,,,Wisconsin Economic Development Corporation,,(855) 462-9332,,https://wedc.org/,2026-10-15,verified
+eda-head-wyoming,Josh Dorrell,EDA_HEAD,Chief Executive Officer,state_territory,Wyoming,,,Wyoming Business Council,,(307) 777-2800,,https://wyomingbusiness.org/,2026-10-15,verified
+eda-head-district-of-columbia,Nina Albert,EDA_HEAD,Deputy Mayor for Planning and Economic Development,municipality,District of Columbia,,,Office of the Deputy Mayor for Planning and Economic Development,,(202) 727-6365,,https://dmped.dc.gov/,2026-10-15,verified
+mayor-new-york-ne,Eric Adams,MAYOR,Mayor,municipality,New York,New York,city,Office of the Mayor of New York City,,(212) 639-9675,,https://www.nyc.gov/office-of-the-mayor/,2026-10-15,verified
+mayor-los-angeles-ca,Karen Bass,MAYOR,Mayor,municipality,Los Angeles,California,city,Office of Mayor Karen Bass,,(213) 978-0600,,https://mayor.lacity.gov/,2026-10-15,verified
+mayor-chicago-il,Brandon Johnson,MAYOR,Mayor,municipality,Chicago,Illinois,city,Office of the Mayor of Chicago,,(312) 744-3300,,https://www.chicago.gov/city/en/depts/mayor.html,2026-10-15,verified
+mayor-houston-te,John Whitmire,MAYOR,Mayor,municipality,Houston,Texas,city,City of Houston Mayor’s Office,,(713) 837-0311,,https://www.houstontx.gov/mayor/,2026-10-15,verified
+mayor-phoenix-ar,Kate Gallego,MAYOR,Mayor,municipality,Phoenix,Arizona,city,City of Phoenix Mayor’s Office,,(602) 262-7111,,https://www.phoenix.gov/mayor,2026-10-15,verified
+mayor-philadelphia-pe,Cherelle Parker,MAYOR,Mayor,municipality,Philadelphia,Pennsylvania,city,City of Philadelphia Office of the Mayor,,(215) 686-2181,,https://www.phila.gov/departments/office-of-the-mayor/,2026-10-15,verified
+mayor-san-antonio-te,Ron Nirenberg,MAYOR,Mayor,municipality,San Antonio,Texas,city,City of San Antonio Office of the Mayor,,(210) 207-7060,,https://www.sanantonio.gov/mayor,2026-10-15,verified
+mayor-san-diego-ca,Todd Gloria,MAYOR,Mayor,municipality,San Diego,California,city,City of San Diego Office of the Mayor,,(619) 236-6330,,https://www.sandiego.gov/mayor,2026-10-15,verified
+mayor-dallas-te,Eric Johnson,MAYOR,Mayor,municipality,Dallas,Texas,city,City of Dallas Mayor’s Office,,(214) 670-3301,,https://dallascityhall.com/government/citymayor/,2026-10-15,verified
+mayor-austin-te,Kirk Watson,MAYOR,Mayor,municipality,Austin,Texas,city,City of Austin Mayor’s Office,,(512) 978-2100,,https://www.austintexas.gov/department/mayor-kirk-watson,2026-10-15,verified
+mayor-jacksonville-fl,Donna Deegan,MAYOR,Mayor,municipality,Jacksonville,Florida,city,City of Jacksonville Office of the Mayor,,(904) 630-1776,,https://www.jacksonville.gov/departments/mayor-s-office,2026-10-15,verified
+mayor-san-jose-ca,Matt Mahan,MAYOR,Mayor,municipality,San Jose,California,city,City of San José Office of the Mayor,,(408) 535-4800,,https://www.sanjoseca.gov/your-government/departments-offices/mayor-and-city-council/mayor-s-office,2026-10-15,verified
+mayor-fort-worth-te,Mattie Parker,MAYOR,Mayor,municipality,Fort Worth,Texas,city,City of Fort Worth Mayor’s Office,,(817) 392-6118,,https://www.fortworthtexas.gov/departments/citymanager/mayor-council/mattie-parker,2026-10-15,verified
+mayor-columbus-oh,Andrew Ginther,MAYOR,Mayor,municipality,Columbus,Ohio,city,City of Columbus Office of the Mayor,,(614) 645-7778,,https://www.columbus.gov/Government/Mayors-Office,2026-10-15,verified
+mayor-charlotte-no,Vi Lyles,MAYOR,Mayor,municipality,Charlotte,North Carolina,city,City of Charlotte Mayor’s Office,,(704) 336-2241,,https://www.charlottenc.gov/City-Government/Leadership/Mayor-Vi-Lyles,2026-10-15,verified
+mayor-indianapolis-in,Joe Hogsett,MAYOR,Mayor,municipality,Indianapolis,Indiana,city,City of Indianapolis Office of the Mayor,,(317) 327-3601,,https://www.indy.gov/agency/office-of-the-mayor,2026-10-15,verified
+mayor-san-francisco-ca,Daniel Lurie,MAYOR,Mayor,municipality,San Francisco,California,city,City and County of San Francisco Office of the Mayor,,(415) 554-6141,,https://sf.gov/departments/office-mayor,2026-10-15,verified
+mayor-seattle-wa,Bruce Harrell,MAYOR,Mayor,municipality,Seattle,Washington,city,City of Seattle Office of the Mayor,,(206) 684-4000,,https://www.seattle.gov/mayor,2026-10-15,verified
+mayor-denver-co,Mike Johnston,MAYOR,Mayor,municipality,Denver,Colorado,city,City and County of Denver Mayor’s Office,,(720) 865-9000,,https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Mayors-Office,2026-10-15,verified
+mayor-washington-di,Muriel Bowser,MAYOR,Mayor,municipality,Washington,District of Columbia,city,Executive Office of the Mayor of the District of Columbia,,(202) 727-2643,,https://mayor.dc.gov/,2026-10-15,verified
+mayor-boston-ma,Michelle Wu,MAYOR,Mayor,municipality,Boston,Massachusetts,city,City of Boston Mayor’s Office,,(617) 635-4500,,https://www.boston.gov/departments/mayors-office,2026-10-15,verified
+mayor-el-paso-te,Renard Johnson,MAYOR,Mayor,municipality,El Paso,Texas,city,City of El Paso Mayor’s Office,,(915) 212-0021,,https://www.elpasotexas.gov/mayor-and-council/mayor/,2026-10-15,verified
+mayor-nashville-te,Freddie O'Connell,MAYOR,Mayor,municipality,Nashville,Tennessee,city,Metropolitan Government of Nashville and Davidson County Office of the Mayor,,(615) 862-6000,,https://www.nashville.gov/departments/mayor,2026-10-15,verified
+mayor-detroit-mi,Mike Duggan,MAYOR,Mayor,municipality,Detroit,Michigan,city,City of Detroit Mayor’s Office,,(313) 224-3400,,https://detroitmi.gov/government/mayors-office,2026-10-15,verified
+mayor-oklahoma-city-ok,David Holt,MAYOR,Mayor,municipality,Oklahoma City,Oklahoma,city,City of Oklahoma City Mayor’s Office,,(405) 297-2424,,https://www.okc.gov/government/mayor,2026-10-15,verified
+mayor-portland-or,Keith Wilson,MAYOR,Mayor,municipality,Portland,Oregon,city,City of Portland Office of the Mayor,,(503) 823-4120,,https://www.portland.gov/mayor,2026-10-15,verified
+mayor-las-vegas-ne,Shelley Berkley,MAYOR,Mayor,municipality,Las Vegas,Nevada,city,City of Las Vegas Mayor’s Office,,(702) 229-6241,,https://www.lasvegasnevada.gov/Government/Mayor-City-Council/Mayor,2026-10-15,verified
+mayor-memphis-te,Paul Young,MAYOR,Mayor,municipality,Memphis,Tennessee,city,City of Memphis Office of the Mayor,,(901) 636-6000,,https://www.memphistn.gov/government/mayor-paul-young/,2026-10-15,verified
+mayor-louisville-ke,Craig Greenberg,MAYOR,Mayor,municipality,Louisville,Kentucky,city,Louisville Metro Government Office of the Mayor,,(502) 574-2003,,https://louisvilleky.gov/government/mayor-craig-greenberg,2026-10-15,verified
+mayor-baltimore-ma,Brandon Scott,MAYOR,Mayor,municipality,Baltimore,Maryland,city,City of Baltimore Mayor’s Office,,(410) 396-3835,,https://mayor.baltimorecity.gov/,2026-10-15,verified
+mayor-milwaukee-wi,Cavalier Johnson,MAYOR,Mayor,municipality,Milwaukee,Wisconsin,city,City of Milwaukee Office of the Mayor,,(414) 286-2200,,https://city.milwaukee.gov/MayorJohnson,2026-10-15,verified
+mayor-albuquerque-ne,Tim Keller,MAYOR,Mayor,municipality,Albuquerque,New Mexico,city,City of Albuquerque Office of the Mayor,,(505) 768-3000,,https://www.cabq.gov/mayor,2026-10-15,verified
+mayor-tucson-ar,Regina Romero,MAYOR,Mayor,municipality,Tucson,Arizona,city,City of Tucson Mayor’s Office,,(520) 791-4201,,https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/Mayor-Regina-Romero,2026-10-15,verified
+mayor-fresno-ca,Jerry Dyer,MAYOR,Mayor,municipality,Fresno,California,city,City of Fresno Office of the Mayor,,(559) 621-8000,,https://www.fresno.gov/mayor/,2026-10-15,verified
+mayor-sacramento-ca,Kevin McCarty,MAYOR,Mayor,municipality,Sacramento,California,city,City of Sacramento Mayor’s Office,,(916) 808-5300,,https://www.cityofsacramento.gov/mayor-council/mayor,2026-10-15,verified
+mayor-kansas-city-mi,Quinton Lucas,MAYOR,Mayor,municipality,Kansas City,Missouri,city,City of Kansas City Mayor’s Office,,(816) 513-3500,,https://www.kcmo.gov/city-hall/departments/mayor-s-office,2026-10-15,verified
+mayor-atlanta-ge,Andre Dickens,MAYOR,Mayor,municipality,Atlanta,Georgia,city,City of Atlanta Mayor’s Office,,(404) 330-6100,,https://www.atlantaga.gov/government/mayor-s-office,2026-10-15,verified
+mayor-omaha-ne,Jean Stothert,MAYOR,Mayor,municipality,Omaha,Nebraska,city,City of Omaha Mayor’s Office,,(402) 444-5555,,https://mayors-office.cityofomaha.org/,2026-10-15,verified
+mayor-raleigh-no,Janet Cowell,MAYOR,Mayor,municipality,Raleigh,North Carolina,city,City of Raleigh Office of the Mayor,,(919) 996-3050,,https://raleighnc.gov/city-council/services/office-mayor,2026-10-15,verified
+mayor-miami-fl,Francis Suarez,MAYOR,Mayor,municipality,Miami,Florida,city,City of Miami Office of the Mayor,,(305) 250-5300,,https://www.miami.gov/My-Government/Elected-Officials/Mayor-Francis-Suarez,2026-10-15,verified
+mayor-minneapolis-mi,Jacob Frey,MAYOR,Mayor,municipality,Minneapolis,Minnesota,city,City of Minneapolis Office of the Mayor,,(612) 673-2100,,https://www.minneapolismn.gov/government/mayor/,2026-10-15,verified
+mayor-cleveland-oh,Justin Bibb,MAYOR,Mayor,municipality,Cleveland,Ohio,city,City of Cleveland Office of the Mayor,,(216) 664-3990,,https://www.clevelandohio.gov/city-hall/office-mayor,2026-10-15,verified
+mayor-tampa-fl,Jane Castor,MAYOR,Mayor,municipality,Tampa,Florida,city,City of Tampa Office of the Mayor,,(813) 274-8251,,https://www.tampa.gov/mayor,2026-10-15,verified
+mayor-pittsburgh-pe,Ed Gainey,MAYOR,Mayor,municipality,Pittsburgh,Pennsylvania,city,City of Pittsburgh Office of the Mayor,,(412) 255-2626,,https://pittsburghpa.gov/mayor/,2026-10-15,verified
+mayor-honolulu-ha,Rick Blangiardi,MAYOR,Mayor,municipality,Honolulu,Hawaii,city,City and County of Honolulu Office of the Mayor,,(808) 768-4141,,https://www.honolulu.gov/mayor/,2026-10-15,verified
+mayor-anchorage-al,Suzanne LaFrance,MAYOR,Mayor,municipality,Anchorage,Alaska,city,Municipality of Anchorage Office of the Mayor,,(907) 343-7100,,https://www.muni.org/Departments/Mayor/Pages/default.aspx,2026-10-15,verified
+mayor-boise-id,Lauren McLean,MAYOR,Mayor,municipality,Boise,Idaho,city,City of Boise Office of the Mayor,,(208) 972-8520,,https://www.cityofboise.org/departments/mayor/,2026-10-15,verified
+mayor-salt-lake-city-ut,Erin Mendenhall,MAYOR,Mayor,municipality,Salt Lake City,Utah,city,Salt Lake City Office of the Mayor,,(801) 535-7704,,https://www.slc.gov/mayor/,2026-10-15,verified
+mayor-richmond-vi,Danny Avula,MAYOR,Mayor,municipality,Richmond,Virginia,city,City of Richmond Mayor’s Office,,(804) 646-7970,,https://www.rva.gov/mayors-office,2026-10-15,verified
+mayor-providence-rh,Brett Smiley,MAYOR,Mayor,municipality,Providence,Rhode Island,city,City of Providence Mayor’s Office,,(401) 421-2489,,https://www.providenceri.gov/mayor-brett-smiley/,2026-10-15,verified

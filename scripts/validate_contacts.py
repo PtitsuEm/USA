@@ -236,10 +236,16 @@ def check_coverage(rows: list[dict[str, str]], jurisdictions: set[tuple[str, str
             ok, why = checked_on_ok(row["checked_on"])
             if not ok:
                 findings.append(error(name, "checked_on_format", line, key, why))
-        dup_line = seen_keys.get((row.get("jurisdiction_level", ""), row.get("jurisdiction_name", ""), row.get("role_code", "")))
+        cov_key = (
+            row.get("jurisdiction_level", ""),
+            row.get("jurisdiction_name", ""),
+            row.get("parent_jurisdiction", ""),
+            row.get("role_code", ""),
+        )
+        dup_line = seen_keys.get(cov_key)
         if dup_line:
             findings.append(error(name, "duplicate_role_row", line, key, f"duplicate role row; first seen on line {dup_line}"))
-        seen_keys[(row.get("jurisdiction_level", ""), row.get("jurisdiction_name", ""), row.get("role_code", ""))] = line
+        seen_keys[cov_key] = line
         jk = (row.get("jurisdiction_level", ""), row.get("jurisdiction_name", ""))
         if jk[0] and jk[1] and jk not in jurisdictions:
             findings.append(warn(name, "unknown_jurisdiction", line, key, "jurisdiction not present in jurisdictions.csv"))
@@ -247,28 +253,34 @@ def check_coverage(rows: list[dict[str, str]], jurisdictions: set[tuple[str, str
 
 
 def role_key(row: dict[str, str]) -> str:
-    return "/".join(part for part in (row.get("jurisdiction_level", ""), row.get("jurisdiction_name", ""), row.get("role_code", "")) if part)
+    level = row.get("jurisdiction_level", "")
+    name = row.get("jurisdiction_name", "")
+    parent = row.get("parent_jurisdiction", "")
+    role = row.get("role_code", "")
+    label = f"{name} ({parent})" if parent else name
+    return "/".join(part for part in (level, label, role) if part)
 
 
 def check_jurisdictions(rows: list[dict[str, str]]) -> tuple[list[Finding], set[tuple[str, str]]]:
     name = "jurisdictions.csv"
     findings: list[Finding] = []
-    seen: dict[tuple[str, str], int] = {}
+    seen: dict[tuple[str, str, str], int] = {}
     known: set[tuple[str, str]] = set()
     for line, row in enumerate(rows, start=2):
         level = (row.get("jurisdiction_level") or "").strip()
         jname = (row.get("jurisdiction_name") or "").strip()
-        jkey = f"{level}/{jname}"
+        parent = (row.get("parent_jurisdiction") or "").strip()
+        jkey = f"{level}/{jname} ({parent})" if parent else f"{level}/{jname}"
         if level and level not in JURISDICTION_LEVELS:
             findings.append(error(name, "level_vocabulary", line, jkey, f"unknown jurisdiction_level {level!r}"))
         jtype = (row.get("jurisdiction_type") or "").strip()
         if jtype and jtype not in JURISDICTION_TYPES:
             findings.append(error(name, "type_vocabulary", line, jkey, f"unknown jurisdiction_type {jtype!r}"))
-        if (level, jname) in seen:
-            findings.append(error(name, "duplicate_jurisdiction", line, jkey, f"duplicate jurisdiction; first seen on line {seen[(level, jname)]}"))
-        seen[(level, jname)] = line
+        seen_key = (level, jname, parent)
+        if seen_key in seen:
+            findings.append(error(name, "duplicate_jurisdiction", line, jkey, f"duplicate jurisdiction; first seen on line {seen[seen_key]}"))
+        seen[seen_key] = line
         known.add((level, jname))
-        parent = (row.get("parent_jurisdiction") or "").strip()
         if level == "municipality" and jtype == "municipality" and not parent:
             findings.append(error(name, "missing_parent", line, jkey, "municipality rows must name a parent state/territory"))
         if parent and ("state_territory", parent) not in known and not any(k[1] == parent and k[0] == "state_territory" for k in seen if k[0] == "state_territory"):

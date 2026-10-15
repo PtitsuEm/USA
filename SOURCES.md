@@ -16,6 +16,7 @@ Use official sources first and store the page used for each individual row in `s
 | [Town of Middletown — Mayor and Council](https://www.middletown.delaware.gov/mayor-council) and [contact directory](https://www.middletown.delaware.gov/contact-us) | Current mayor, vice-mayor and office phone numbers | The town does not publish a direct email for these officials on these pages |
 | [City of Newark — Council Members](https://www.newarkde.gov/475/Council-Members) and [staff directory](https://newarkde.gov/m/directory) | Current city elected officials and published contact details | Personal email may be published where no government address is provided |
 | [City of Wilmington — Mayor's Office](https://www.wilmingtonde.gov/government/office-of-the-mayor/meetingrequest) | Mayor's name and office phone | No direct email listed on this page |
+| [U.S. Department of Energy — Kelly Cummins](https://www.energy.gov/person/kelly-cummins) | Current name/title and OCED clean-energy demonstration funding remit | Does not publish her email, phone, or LinkedIn profile |
 
 For LinkedIn, use the person's public profile only after confirming identity through an official name/title/organization match. Record the profile URL as a separate public professional profile; do not infer URLs from a naming pattern.
 

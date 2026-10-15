@@ -54,3 +54,59 @@ ltgov-washington,governor-washington,coordinates_with,Constitutional second-in-c
 ltgov-west-virginia,governor-west-virginia,coordinates_with,Constitutional second-in-command / successor to the Governor,https://www.wvlegislature.gov/,2026-10-15
 ltgov-wisconsin,governor-wisconsin,coordinates_with,Constitutional second-in-command / successor to the Governor,https://ltgov.wi.gov/,2026-10-15
 ltgov-wyoming,governor-wyoming,coordinates_with,Constitutional second-in-command / successor to the Governor,https://sos.wyo.gov/,2026-10-15
+eda-head-alabama,governor-alabama,reports_to,Appointed agency executive / cabinet head,https://commerce.alabama.gov/,2026-10-15
+eda-head-alaska,governor-alaska,reports_to,Appointed agency executive / cabinet head,https://www.commerce.alaska.gov/web/,2026-10-15
+eda-head-american-samoa,governor-american-samoa,reports_to,Appointed agency executive / cabinet head,https://doc.as.gov/,2026-10-15
+eda-head-arizona,governor-arizona,coordinates_with,State economic development partner organization,https://www.azcommerce.com/,2026-10-15
+eda-head-arkansas,governor-arkansas,reports_to,Appointed agency executive / cabinet head,https://www.arkansasedc.com/,2026-10-15
+eda-head-california,governor-california,reports_to,Appointed agency executive / cabinet head,https://business.ca.gov/,2026-10-15
+eda-head-colorado,governor-colorado,reports_to,Appointed agency executive / cabinet head,https://oedit.colorado.gov/,2026-10-15
+eda-head-connecticut,governor-connecticut,reports_to,Appointed agency executive / cabinet head,https://portal.ct.gov/decd,2026-10-15
+eda-head-florida,governor-florida,reports_to,Appointed agency executive / cabinet head,https://floridacommerce.myflorida.com/,2026-10-15
+eda-head-georgia,governor-georgia,reports_to,Appointed agency executive / cabinet head,https://www.georgia.org/,2026-10-15
+eda-head-guam,governor-guam,coordinates_with,State economic development partner organization,https://investguam.com/,2026-10-15
+eda-head-hawaii,governor-hawaii,reports_to,Appointed agency executive / cabinet head,https://dbedt.hawaii.gov/,2026-10-15
+eda-head-idaho,governor-idaho,reports_to,Appointed agency executive / cabinet head,https://commerce.idaho.gov/,2026-10-15
+eda-head-illinois,governor-illinois,reports_to,Appointed agency executive / cabinet head,https://dceo.illinois.gov/,2026-10-15
+eda-head-indiana,governor-indiana,coordinates_with,State economic development partner organization,https://iedc.in.gov/,2026-10-15
+eda-head-iowa,governor-iowa,reports_to,Appointed agency executive / cabinet head,https://www.iowaeda.com/,2026-10-15
+eda-head-kansas,governor-kansas,reports_to,Appointed agency executive / cabinet head,https://www.kansascommerce.gov/,2026-10-15
+eda-head-kentucky,governor-kentucky,reports_to,Appointed agency executive / cabinet head,https://ced.ky.gov/,2026-10-15
+eda-head-louisiana,governor-louisiana,reports_to,Appointed agency executive / cabinet head,https://www.opportunitylouisiana.gov/,2026-10-15
+eda-head-maine,governor-maine,reports_to,Appointed agency executive / cabinet head,https://www.maine.gov/decd/,2026-10-15
+eda-head-maryland,governor-maryland,reports_to,Appointed agency executive / cabinet head,https://commerce.maryland.gov/,2026-10-15
+eda-head-massachusetts,governor-massachusetts,reports_to,Appointed agency executive / cabinet head,https://www.mass.gov/orgs/executive-office-of-economic-development,2026-10-15
+eda-head-michigan,governor-michigan,coordinates_with,State economic development partner organization,https://www.michiganbusiness.org/,2026-10-15
+eda-head-minnesota,governor-minnesota,reports_to,Appointed agency executive / cabinet head,https://mn.gov/deed/,2026-10-15
+eda-head-mississippi,governor-mississippi,reports_to,Appointed agency executive / cabinet head,https://mississippi.org/,2026-10-15
+eda-head-missouri,governor-missouri,reports_to,Appointed agency executive / cabinet head,https://ded.mo.gov/,2026-10-15
+eda-head-montana,governor-montana,reports_to,Appointed agency executive / cabinet head,https://marketmt.com/,2026-10-15
+eda-head-nebraska,governor-nebraska,reports_to,Appointed agency executive / cabinet head,https://opportunity.nebraska.gov/,2026-10-15
+eda-head-nevada,governor-nevada,reports_to,Appointed agency executive / cabinet head,https://goed.nv.gov/,2026-10-15
+eda-head-new-hampshire,governor-new-hampshire,reports_to,Appointed agency executive / cabinet head,https://www.nheconomy.com/,2026-10-15
+eda-head-new-jersey,governor-new-jersey,coordinates_with,State economic development partner organization,https://www.njeda.gov/,2026-10-15
+eda-head-new-mexico,governor-new-mexico,reports_to,Appointed agency executive / cabinet head,https://edd.newmexico.gov/,2026-10-15
+eda-head-new-york,governor-new-york,reports_to,Appointed agency executive / cabinet head,https://esd.ny.gov/,2026-10-15
+eda-head-north-carolina,governor-north-carolina,coordinates_with,State economic development partner organization,https://edpnc.com/,2026-10-15
+eda-head-north-dakota,governor-north-dakota,reports_to,Appointed agency executive / cabinet head,https://www.commerce.nd.gov/,2026-10-15
+eda-head-northern-mariana-islands,governor-northern-mariana-islands,reports_to,Appointed agency executive / cabinet head,https://commerce.gov.mp/,2026-10-15
+eda-head-ohio,governor-ohio,coordinates_with,State economic development partner organization,https://www.jobsohio.com/,2026-10-15
+eda-head-oklahoma,governor-oklahoma,reports_to,Appointed agency executive / cabinet head,https://www.okcommerce.gov/,2026-10-15
+eda-head-oregon,governor-oregon,reports_to,Appointed agency executive / cabinet head,https://www.oregon.gov/biz/,2026-10-15
+eda-head-pennsylvania,governor-pennsylvania,reports_to,Appointed agency executive / cabinet head,https://dced.pa.gov/,2026-10-15
+eda-head-puerto-rico,governor-puerto-rico,reports_to,Appointed agency executive / cabinet head,https://www.ddec.pr.gov/,2026-10-15
+eda-head-rhode-island,governor-rhode-island,coordinates_with,State economic development partner organization,https://commerceri.com/,2026-10-15
+eda-head-south-carolina,governor-south-carolina,reports_to,Appointed agency executive / cabinet head,https://www.sccommerce.com/,2026-10-15
+eda-head-south-dakota,governor-south-dakota,reports_to,Appointed agency executive / cabinet head,https://sdgoed.com/,2026-10-15
+eda-head-tennessee,governor-tennessee,reports_to,Appointed agency executive / cabinet head,https://tnecd.com/,2026-10-15
+eda-head-texas,governor-texas,reports_to,Appointed agency executive / cabinet head,https://gov.texas.gov/business,2026-10-15
+eda-head-us-virgin-islands,governor-u-s--virgin-islands,coordinates_with,State economic development partner organization,https://www.usvieda.org/,2026-10-15
+eda-head-utah,governor-utah,reports_to,Appointed agency executive / cabinet head,https://business.utah.gov/,2026-10-15
+eda-head-vermont,governor-vermont,reports_to,Appointed agency executive / cabinet head,https://accd.vermont.gov/,2026-10-15
+eda-head-virginia,governor-virginia,coordinates_with,State economic development partner organization,https://www.vedp.org/,2026-10-15
+eda-head-washington,governor-washington,reports_to,Appointed agency executive / cabinet head,https://www.commerce.wa.gov/,2026-10-15
+eda-head-west-virginia,governor-west-virginia,reports_to,Appointed agency executive / cabinet head,https://westvirginia.gov/,2026-10-15
+eda-head-wisconsin,governor-wisconsin,coordinates_with,State economic development partner organization,https://wedc.org/,2026-10-15
+eda-head-wyoming,governor-wyoming,coordinates_with,State economic development partner organization,https://wyomingbusiness.org/,2026-10-15
+dpp-president-delaware,governor-delaware,coordinates_with,Public-private economic development partnership with State of Delaware,https://www.choosedelaware.com/state-economic-development-agency/the-team/,2026-10-15
+eda-head-district-of-columbia,mayor-washington-di,reports_to,Reports to the Mayor of the District of Columbia,https://dmped.dc.gov/,2026-10-15

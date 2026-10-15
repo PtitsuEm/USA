@@ -2,9 +2,9 @@
 
 Generated: 2026-10-15, by `scripts/validate_contacts.py`, offline and read-only.
 
-contacts.csv: 172 rows, relationships.csv: 55 rows, coverage.csv: 774 rows, jurisdictions.csv: 114 rows
+contacts.csv: 278 rows, relationships.csv: 111 rows, coverage.csv: 826 rows, jurisdictions.csv: 114 rows
 
-Result: **0 errors, 109 warnings** (errors must be fixed before data changes ship; warnings are informational gaps)
+Result: **0 errors, 264 warnings** (errors must be fixed before data changes ship; warnings are informational gaps)
 
 ## What these checks prove — and do not prove
 
@@ -16,7 +16,7 @@ Result: **0 errors, 109 warnings** (errors must be fixed before data changes shi
 
 ## Findings
 
-### Warnings (109)
+### Warnings (264)
 
 - contacts.csv:58 `governor-alabama` — `email_syntax`: no email value in row (blank cell); format check not applicable
 - contacts.csv:59 `governor-alaska` — `email_syntax`: no email value in row (blank cell); format check not applicable
@@ -127,10 +127,165 @@ Result: **0 errors, 109 warnings** (errors must be fixed before data changes shi
 - contacts.csv:171 `ltgov-west-virginia` — `email_syntax`: no email value in row (blank cell); format check not applicable
 - contacts.csv:172 `ltgov-wisconsin` — `email_syntax`: no email value in row (blank cell); format check not applicable
 - contacts.csv:173 `ltgov-wyoming` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:174 `federal-oced-acting-director` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:175 `eda-head-alabama` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:176 `eda-head-alaska` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:177 `eda-head-american-samoa` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:178 `eda-head-arizona` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:179 `eda-head-arkansas` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:180 `eda-head-california` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:181 `eda-head-colorado` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:182 `eda-head-connecticut` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:183 `eda-head-florida` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:184 `eda-head-georgia` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:185 `eda-head-guam` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:186 `eda-head-hawaii` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:187 `eda-head-idaho` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:188 `eda-head-illinois` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:189 `eda-head-indiana` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:190 `eda-head-iowa` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:191 `eda-head-kansas` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:192 `eda-head-kentucky` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:193 `eda-head-louisiana` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:194 `eda-head-maine` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:195 `eda-head-maryland` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:196 `eda-head-massachusetts` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:197 `eda-head-michigan` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:198 `eda-head-minnesota` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:199 `eda-head-mississippi` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:200 `eda-head-missouri` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:201 `eda-head-montana` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:202 `eda-head-nebraska` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:203 `eda-head-nevada` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:204 `eda-head-new-hampshire` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:205 `eda-head-new-jersey` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:206 `eda-head-new-mexico` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:207 `eda-head-new-york` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:208 `eda-head-north-carolina` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:209 `eda-head-north-dakota` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:210 `eda-head-northern-mariana-islands` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:211 `eda-head-ohio` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:212 `eda-head-oklahoma` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:213 `eda-head-oregon` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:214 `eda-head-pennsylvania` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:215 `eda-head-puerto-rico` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:216 `eda-head-rhode-island` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:217 `eda-head-south-carolina` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:218 `eda-head-south-dakota` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:219 `eda-head-tennessee` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:220 `eda-head-texas` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:221 `eda-head-us-virgin-islands` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:222 `eda-head-utah` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:223 `eda-head-vermont` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:224 `eda-head-virginia` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:225 `eda-head-washington` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:226 `eda-head-west-virginia` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:227 `eda-head-wisconsin` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:228 `eda-head-wyoming` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:229 `eda-head-district-of-columbia` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:230 `mayor-new-york-ne` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:231 `mayor-los-angeles-ca` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:232 `mayor-chicago-il` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:233 `mayor-houston-te` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:234 `mayor-phoenix-ar` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:235 `mayor-philadelphia-pe` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:236 `mayor-san-antonio-te` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:237 `mayor-san-diego-ca` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:238 `mayor-dallas-te` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:239 `mayor-austin-te` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:240 `mayor-jacksonville-fl` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:241 `mayor-san-jose-ca` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:242 `mayor-fort-worth-te` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:243 `mayor-columbus-oh` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:244 `mayor-charlotte-no` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:245 `mayor-indianapolis-in` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:246 `mayor-san-francisco-ca` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:247 `mayor-seattle-wa` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:248 `mayor-denver-co` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:249 `mayor-washington-di` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:250 `mayor-boston-ma` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:251 `mayor-el-paso-te` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:252 `mayor-nashville-te` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:253 `mayor-detroit-mi` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:254 `mayor-oklahoma-city-ok` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:255 `mayor-portland-or` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:256 `mayor-las-vegas-ne` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:257 `mayor-memphis-te` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:258 `mayor-louisville-ke` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:259 `mayor-baltimore-ma` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:260 `mayor-milwaukee-wi` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:261 `mayor-albuquerque-ne` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:262 `mayor-tucson-ar` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:263 `mayor-fresno-ca` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:264 `mayor-sacramento-ca` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:265 `mayor-kansas-city-mi` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:266 `mayor-atlanta-ge` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:267 `mayor-omaha-ne` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:268 `mayor-raleigh-no` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:269 `mayor-miami-fl` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:270 `mayor-minneapolis-mi` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:271 `mayor-cleveland-oh` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:272 `mayor-tampa-fl` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:273 `mayor-pittsburgh-pe` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:274 `mayor-honolulu-ha` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:275 `mayor-anchorage-al` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:276 `mayor-boise-id` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:277 `mayor-salt-lake-city-ut` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:278 `mayor-richmond-vi` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- contacts.csv:279 `mayor-providence-rh` — `email_syntax`: no email value in row (blank cell); format check not applicable
+- coverage.csv:778 `municipality/New York (New York)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:779 `municipality/Los Angeles (California)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:780 `municipality/Chicago (Illinois)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:782 `municipality/Phoenix (Arizona)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:783 `municipality/Philadelphia (Pennsylvania)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:784 `municipality/San Antonio (Texas)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:785 `municipality/San Diego (California)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:786 `municipality/Dallas (Texas)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:787 `municipality/Austin (Texas)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:788 `municipality/Jacksonville (Florida)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:789 `municipality/San Jose (California)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:790 `municipality/Fort Worth (Texas)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:791 `municipality/Columbus (Ohio)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:792 `municipality/Charlotte (North Carolina)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:793 `municipality/Indianapolis (Indiana)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:794 `municipality/San Francisco (California)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:795 `municipality/Seattle (Washington)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:796 `municipality/Denver (Colorado)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:797 `municipality/Washington (District of Columbia)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:798 `municipality/Boston (Massachusetts)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:799 `municipality/El Paso (Texas)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:800 `municipality/Nashville (Tennessee)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:801 `municipality/Detroit (Michigan)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:802 `municipality/Oklahoma City (Oklahoma)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:803 `municipality/Portland (Oregon)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:804 `municipality/Las Vegas (Nevada)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:805 `municipality/Memphis (Tennessee)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:806 `municipality/Louisville (Kentucky)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:807 `municipality/Baltimore (Maryland)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:808 `municipality/Milwaukee (Wisconsin)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:809 `municipality/Albuquerque (New Mexico)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:810 `municipality/Tucson (Arizona)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:811 `municipality/Fresno (California)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:812 `municipality/Sacramento (California)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:813 `municipality/Kansas City (Missouri)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:814 `municipality/Atlanta (Georgia)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:815 `municipality/Omaha (Nebraska)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:816 `municipality/Raleigh (North Carolina)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:817 `municipality/Miami (Florida)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:818 `municipality/Minneapolis (Minnesota)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:819 `municipality/Cleveland (Ohio)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:820 `municipality/Tampa (Florida)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:821 `municipality/Pittsburgh (Pennsylvania)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:822 `municipality/Honolulu (Hawaii)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:823 `municipality/Anchorage (Alaska)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:824 `municipality/Boise (Idaho)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:825 `municipality/Salt Lake City (Utah)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:826 `municipality/Richmond (Virginia)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
+- coverage.csv:827 `municipality/Providence (Rhode Island)/MAYOR` — `unknown_jurisdiction`: jurisdiction not present in jurisdictions.csv
 
 ## Coverage summary
 
-- contacts.csv: 172 rows, 109 without a published email yet; statuses: needs_review=55, verified=117
-- coverage.csv statuses: in_progress=110, needs_review=2, not_started=546, verified=116
+- contacts.csv: 278 rows, 215 without a published email yet; statuses: needs_review=55, verified=223
+- coverage.csv statuses: in_progress=110, needs_review=2, not_started=546, verified=168
 
 Remember: a format pass is not a verification pass. Every contact still needs ground-truth confirmation on the linked official source before its status moves beyond `needs_review` or reaches `verified` through a published official page.
