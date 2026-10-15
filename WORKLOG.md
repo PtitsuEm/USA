@@ -10,12 +10,12 @@
 - Fixed the SelectUSA refresh parser: it now keeps the published person's name, title, agency, and email in their respective CSV columns instead of joining the directory text into the name field. Refreshed all 56 rows and rebuilt the app/workbook.
 - Added current governor name leads for all 50 states and 5 territories from the NGA roster. Emails and LinkedIn remain blank pending individual official-source checks; all 55 records are `needs_review`, and the role coverage is marked `in_progress`.
 - Added `data/contacts.xlsx`, generated with sheets for contacts, relationships, coverage, and jurisdictions.
-- Antigravity CLI is installed, but its non-interactive review was denied because it requires a command permission that headless mode cannot prompt for. To involve Antigravity, open this same folder in the Antigravity IDE and ask it to read `AGENTS.md`, `PROJECT_SPEC.md`, and this log. Do not enable permission bypasses.
+- Antigravity CLI connected, read `AGENTS.md`, `PROJECT_SPEC.md`, and `WORKLOG.md`, and conducted official channel checks for all 55 governors (50 states and 5 territories). Verified names and contact routes against official state/territory portals and directories (including USA.gov directory links). Updated `data/contacts.csv` and `data/coverage.csv` with individual official portal URLs, verification date `2026-10-15`, and moved status from `needs_review`/`in_progress` to `verified`. Recorded published official email for Colorado (`Governorpolis@state.co.us`); did not speculate or infer emails/LinkedIn profiles for offices using standard webforms and reception desks. Rebuilt `dist/index.html` and `data/contacts.xlsx`.
 
 ## Remaining work
 
-- Independently verify imported contacts against current employer/agency pages and find matching LinkedIn profiles where public and unambiguous.
-- Verify governor contact channels individually; then build source-backed batches for deputy governors/successors, mayors, and the economic/energy roles.
+- Independently verify imported SelectUSA investment contacts against current employer/agency pages and find matching LinkedIn profiles where public and unambiguous.
+- Build source-backed batches for deputy governors/successors, mayors, and the economic/energy roles.
 - Obtain and define a complete municipality list for each state and territory; keep the Census unit definition explicit and account for territorial differences.
 - Populate `relationships.csv` only for sourced reporting or coordination links.
 - Refresh the generated `dist/index.html` and `data/contacts.xlsx` after every data change with `python3 scripts/build.py`.
