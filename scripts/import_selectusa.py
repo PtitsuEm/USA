@@ -21,7 +21,7 @@ SOURCE = "https://www.trade.gov/selectusa-find-economic-developers"
 FIELDS = [
     "person_id", "name", "role_code", "role_title", "jurisdiction_level",
     "jurisdiction_name", "parent_jurisdiction", "municipality_type", "agency",
-    "email", "linkedin_url", "source_url", "checked_on", "status",
+    "email", "phone", "linkedin_url", "source_url", "checked_on", "status",
 ]
 
 
@@ -100,6 +100,9 @@ def main() -> None:
 
         name = lines[0].strip()
         email = html.unescape(mail.group(1)).strip() if mail else ""
+        phone = next((line[2:].strip() for line in lines[1:] if line.startswith("T:") and line[2:].strip()), "")
+        if not phone:
+            phone = next((line[2:].strip() for line in lines[1:] if line.startswith("C:") and line[2:].strip()), "")
         info = [line for line in lines[1:] if not line.startswith(("T:", "C:"))]
         title = info[0] if info else "Title not stated in SelectUSA directory"
         agency = info[1] if len(info) > 1 else ""
@@ -115,6 +118,7 @@ def main() -> None:
             "municipality_type": "",
             "agency": agency,
             "email": email,
+            "phone": phone,
             "linkedin_url": "",
             "source_url": SOURCE,
             "checked_on": date.today().isoformat(),
@@ -137,6 +141,7 @@ def main() -> None:
             if old:
                 if old["name"] == row["name"]:
                     row["linkedin_url"] = old["linkedin_url"]
+                    row["phone"] = old.get("phone", "") or row["phone"]
                 refreshed_by_id[row["person_id"]] = row
                 refreshed += 1
         existing = [refreshed_by_id.get(row["person_id"], row) for row in existing]

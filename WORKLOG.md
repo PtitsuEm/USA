@@ -11,11 +11,12 @@
 - Added current governor name leads for all 50 states and 5 territories from the NGA roster. Emails and LinkedIn remain blank pending individual official-source checks; all 55 records are `needs_review`, and the role coverage is marked `in_progress`.
 - Added `data/contacts.xlsx`, generated with sheets for contacts, relationships, coverage, and jurisdictions.
 - Antigravity CLI connected, read `AGENTS.md`, `PROJECT_SPEC.md`, and `WORKLOG.md`, and conducted official channel checks for all 55 governors (50 states and 5 territories). Verified names and contact routes against official state/territory portals and directories (including USA.gov directory links). Updated `data/contacts.csv` and `data/coverage.csv` with individual official portal URLs, verification date `2026-10-15`, and moved status from `needs_review`/`in_progress` to `verified`. Recorded published official email for Colorado (`Governorpolis@state.co.us`); did not speculate or infer emails/LinkedIn profiles for offices using standard webforms and reception desks. Rebuilt `dist/index.html` and `data/contacts.xlsx`.
+- Sourced and verified all 55 Lieutenant Governors / Deputy Governors / designated constitutional successors across all 50 states and 5 territories (Role `GOVERNOR_DEPUTY`). Added individual records to `data/contacts.csv` with official portal URLs, verified status, and published official emails where available (e.g. `ltgov@ltgov.alabama.gov`, `LtGovStratton@illinois.gov`, `deidrehenderson@utah.gov`). For jurisdictions without a standalone Lt. Governor (AZ, ME, NH, OR, WY, PR), verified constitutional successors (Secretary of State or Senate President). Populated `data/relationships.csv` with 55 confirmed `coordinates_with` links linking each second-in-command to their respective Governor, activating the interactive relationship graph in the offline UI. Updated `data/coverage.csv` and rebuilt `dist/index.html` and `data/contacts.xlsx` (total contacts: 172, verified: 115, relationships: 55).
 
 ## Remaining work
 
 - Independently verify imported SelectUSA investment contacts against current employer/agency pages and find matching LinkedIn profiles where public and unambiguous.
-- Build source-backed batches for deputy governors/successors, mayors, and the economic/energy roles.
+- Build source-backed batches for mayors and the economic/energy roles.
 - Obtain and define a complete municipality list for each state and territory; keep the Census unit definition explicit and account for territorial differences.
-- Populate `relationships.csv` only for sourced reporting or coordination links.
+- Expand `relationships.csv` for agency reporting lines and municipal coordination.
 - Refresh the generated `dist/index.html` and `data/contacts.xlsx` after every data change with `python3 scripts/build.py`.
