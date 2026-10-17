@@ -2,7 +2,7 @@
 
 Input: `US_Government_and_Economic_Leadership.xlsx` (provided in the project folder)
 
-Audited: 2026-10-15. The source file is preserved unchanged. One row from it has been independently checked against a current official source and added to `data/contacts.csv`; the remaining rows have not been bulk-merged because the workbook has unresolved identity, freshness, and provenance problems.
+Initial audit: 2026-10-15. The source file is preserved unchanged. One row from it was independently checked against a current official source and added to `data/contacts.csv`. A later, clearly marked municipal candidate batch was imported without claiming current employment; see the addendum below. The workbook still has unresolved identity, freshness, and provenance problems.
 
 ## Structure
 
@@ -21,10 +21,18 @@ The app therefore uses records from the workbook only after a separate official-
 
 ## Verified transfer
 
-- **Kelly Cummins — Acting Director, Office of Clean Energy Demonstrations (OCED), U.S. Department of Energy.** The workbook had her as Principal Deputy Director. DOE's current bio identifies her as Acting Director and says OCED delivers more than $25 billion in funding for clean-energy demonstration projects. The database now includes her name and corrected current title under `ENERGY_INVESTMENT_HEAD`, with the DOE bio as source. Email, phone, and LinkedIn were left blank because the official bio does not confirm the workbook's contact fields.
+- The workbook listed Kelly Cummins as Principal Deputy Director / Acting Director, OCED. A later current DOE leadership check superseded that old transfer: DOE now lists **Scott Milliren — Director, OCED** and **Melissa Klembara — Deputy Director, OCED**. The database has been corrected to those current officeholders using their official DOE biographies. No personal email, phone, or LinkedIn was found on those biographies, so these fields remain blank.
 - The workbook has 105 exact name/jurisdiction overlaps with records already in the main database. Those rows were not recopied: several supplied emails conflict with official records (for example, generic Secretary of State addresses placed on lieutenant-governor rows), and most LinkedIn URLs are search pages.
 
-DOE source: [Kelly Cummins official biography](https://www.energy.gov/person/kelly-cummins).
+DOE sources: [Scott Milliren official biography](https://www.energy.gov/cmei/oced/person/scott-milliren), [Melissa Klembara official biography](https://www.energy.gov/cmei/oced/person/melissa-klembara), and [current OCED leadership](https://www.energy.gov/cmei/oced/office-clean-energy-demonstrations).
+
+## Municipal candidate import addendum — 2026-10-15
+
+To expand the review queue, 996 municipal candidates were imported from workbook rows whose branch/title matched the project's target roles and whose row contained a name, municipality, state, and an HTTP(S) official-site URL. All are `needs_review`. The import copied only the workbook name, listed title, jurisdiction, and URL. Email, phone, LinkedIn, and agency were left blank. The `checked_on` value is the import date, not proof that the person or role was checked against the linked site.
+
+Counts: 800 `MAYOR`, 71 `MAYOR_DEPUTY`, 119 `EDA_HEAD`, and 6 `FOREIGN_INVESTMENT_HEAD`. The workbook's 116 composite `City Manager / Deputy Mayor` entries were excluded because that title does not establish that a city manager is also deputy mayor. The importer also skipped 42 duplicates/existing records and 28 incomplete or malformed candidates. No reporting relationships were inferred.
+
+These are candidate leads, not verified people-in-office. The official-site URLs came from the workbook and have not yet been individually checked or shown to support the named person/title. Known workbook freshness and identity problems still apply. The records must remain `needs_review` until direct, current sources confirm them. Rebuild the offline app and workbook with `python3 scripts/build.py` after later source-backed corrections.
 
 ## Safe use
 

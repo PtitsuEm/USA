@@ -1,0 +1,26 @@
+{
+  "name": "usa-public-officials",
+  "version": "1.0.0",
+  "description": "Database and interactive web directory of verified U.S. public officials, state legislators, and economic development leadership.",
+  "scripts": {
+    "dev": "npm --prefix site run dev",
+    "build": "npm --prefix site run build",
+    "start": "npm --prefix site run start",
+    "install:all": "cd site && npm install",
+    "db:init": "python3 scripts/init_db.py",
+    "dist:build": "python3 scripts/build.py",
+    "validate": "python3 scripts/validate_contacts.py",
+    "test": "python3 -m unittest discover tests"
+  },
+  "keywords": [
+    "usa",
+    "government",
+    "public-officials",
+    "legislature",
+    "nextjs",
+    "sqlite",
+    "directory"
+  ],
+  "author": "PtitsuEm",
+  "license": "MIT"
+}

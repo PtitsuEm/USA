@@ -1,0 +1,594 @@
+{
+  "people": [
+    {
+      "id": "person-fed-pres",
+      "slug": "donald-j-trump",
+      "fullName": "Donald J. Trump",
+      "aliases": ["Donald Trump"],
+      "birthDate": "1946-06-14",
+      "birthPlace": "Queens, New York City, NY",
+      "party": "Republican",
+      "education": ["Wharton School of the University of Pennsylvania (B.S. Economics)"],
+      "officialWebsite": "https://www.whitehouse.gov",
+      "status": "current",
+      "bio": "45th and 47th President of the United States. Businessman and former television personality.",
+      "officeId": "office-potus",
+      "officeName": "President of the United States",
+      "jurisdictionLevel": "federal",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-potus",
+          "officeName": "President of the United States",
+          "startDate": "2025-01-20",
+          "appointedOrElected": "elected",
+          "notes": "Elected 47th President",
+          "sourceIds": ["src-whitehouse-trump"]
+        },
+        {
+          "officeId": "office-potus",
+          "officeName": "President of the United States",
+          "startDate": "2017-01-20",
+          "endDate": "2021-01-20",
+          "appointedOrElected": "elected",
+          "notes": "Served as 45th President",
+          "sourceIds": ["src-whitehouse-trump"]
+        }
+      ],
+      "elections": [
+        { "personId": "person-fed-pres", "year": 2024, "officeName": "President of the United States", "result": "won", "votePct": 49.8, "sourceId": "src-fec-2024" },
+        { "personId": "person-fed-pres", "year": 2016, "officeName": "President of the United States", "result": "won", "votePct": 46.1, "sourceId": "src-fec-2016" }
+      ],
+      "sources": [
+        {
+          "id": "src-whitehouse-trump",
+          "title": "Donald J. Trump — The White House Official Biography",
+          "publisher": "The White House (.gov)",
+          "url": "https://www.whitehouse.gov/administration/president-trump/",
+          "archiveUrl": "https://web.archive.org/web/2026/whitehouse.gov",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        },
+        {
+          "id": "src-fec-2024",
+          "title": "Federal Election Commission 2024 Official Presidential Election Results",
+          "publisher": "Federal Election Commission (.gov)",
+          "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-fed-vp",
+      "slug": "jd-vance",
+      "fullName": "JD Vance",
+      "aliases": ["James David Vance"],
+      "birthDate": "1984-08-02",
+      "birthPlace": "Middletown, Ohio",
+      "party": "Republican",
+      "education": ["Ohio State University (B.A.)", "Yale Law School (J.D.)"],
+      "officialWebsite": "https://www.whitehouse.gov",
+      "status": "current",
+      "bio": "50th Vice President of the United States. Former United States Senator from Ohio and author.",
+      "officeId": "office-vpotus",
+      "officeName": "Vice President of the United States",
+      "jurisdictionLevel": "federal",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-vpotus",
+          "officeName": "Vice President of the United States",
+          "startDate": "2025-01-20",
+          "appointedOrElected": "elected",
+          "sourceIds": ["src-whitehouse-vp"]
+        },
+        {
+          "officeId": "office-senate-oh",
+          "officeName": "U.S. Senator from Ohio",
+          "startDate": "2023-01-03",
+          "endDate": "2025-01-13",
+          "appointedOrElected": "elected",
+          "sourceIds": ["src-congress-vance"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-whitehouse-vp",
+          "title": "JD Vance — The White House Official Biography",
+          "publisher": "The White House (.gov)",
+          "url": "https://www.whitehouse.gov/administration/vice-president-vance/",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        },
+        {
+          "id": "src-congress-vance",
+          "title": "Biographical Directory of the United States Congress — JD Vance",
+          "publisher": "Congress.gov",
+          "url": "https://bioguide.congress.gov/search/bio/V000137",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-sen-schumer",
+      "slug": "charles-e-schumer",
+      "fullName": "Charles E. Schumer",
+      "aliases": ["Chuck Schumer"],
+      "birthDate": "1950-11-23",
+      "birthPlace": "Brooklyn, New York City, NY",
+      "party": "Democrat",
+      "education": ["Harvard College (B.A.)", "Harvard Law School (J.D.)"],
+      "officialWebsite": "https://www.schumer.senate.gov",
+      "status": "current",
+      "bio": "Senior United States Senator from New York, serving since 1999. Senate Majority/Minority Leader.",
+      "officeId": "office-senate-ny",
+      "officeName": "U.S. Senator from New York",
+      "jurisdictionLevel": "federal",
+      "jurisdictionState": "New York",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-senate-ny",
+          "officeName": "U.S. Senator from New York",
+          "startDate": "1999-01-03",
+          "appointedOrElected": "elected",
+          "sourceIds": ["src-senate-schumer"]
+        }
+      ],
+      "committees": ["Senate Committee on Rules and Administration", "Senate Select Committee on Intelligence"],
+      "sources": [
+        {
+          "id": "src-senate-schumer",
+          "title": "Senator Charles E. Schumer Official Senate Portal",
+          "publisher": "U.S. Senate (.gov)",
+          "url": "https://www.schumer.senate.gov",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-sen-mcconnell",
+      "slug": "mitch-mcconnell",
+      "fullName": "Addison Mitchell McConnell III",
+      "aliases": ["Mitch McConnell"],
+      "birthDate": "1942-02-20",
+      "birthPlace": "Sheffield, Alabama",
+      "party": "Republican",
+      "education": ["University of Louisville (B.A.)", "University of Kentucky College of Law (J.D.)"],
+      "officialWebsite": "https://www.mcconnell.senate.gov",
+      "status": "current",
+      "bio": "Senior United States Senator from Kentucky, serving since 1985. Longest-serving Senate party leader in history.",
+      "officeId": "office-senate-ky",
+      "officeName": "U.S. Senator from Kentucky",
+      "jurisdictionLevel": "federal",
+      "jurisdictionState": "Kentucky",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-senate-ky",
+          "officeName": "U.S. Senator from Kentucky",
+          "startDate": "1985-01-03",
+          "appointedOrElected": "elected",
+          "sourceIds": ["src-senate-mcconnell"]
+        }
+      ],
+      "committees": ["Senate Committee on Agriculture, Nutrition, and Forestry", "Senate Committee on Appropriations"],
+      "sources": [
+        {
+          "id": "src-senate-mcconnell",
+          "title": "Senator Mitch McConnell Official Senate Portal",
+          "publisher": "U.S. Senate (.gov)",
+          "url": "https://www.mcconnell.senate.gov",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-scotus-roberts",
+      "slug": "john-g-roberts-jr",
+      "fullName": "John Glover Roberts Jr.",
+      "aliases": ["John Roberts"],
+      "birthDate": "1955-01-27",
+      "birthPlace": "Buffalo, New York",
+      "party": "Independent",
+      "education": ["Harvard College (A.B.)", "Harvard Law School (J.D.)"],
+      "officialWebsite": "https://www.supremecourt.gov",
+      "status": "current",
+      "bio": "17th Chief Justice of the United States Supreme Court, appointed in 2005 by President George W. Bush.",
+      "officeId": "office-scotus-cj",
+      "officeName": "Chief Justice of the United States",
+      "jurisdictionLevel": "federal",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-scotus-cj",
+          "officeName": "Chief Justice of the United States",
+          "startDate": "2005-09-29",
+          "appointedOrElected": "appointed",
+          "sourceIds": ["src-scotus-roberts"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-scotus-roberts",
+          "title": "Supreme Court of the United States — Current Members",
+          "publisher": "Supreme Court of the United States (.gov)",
+          "url": "https://www.supremecourt.gov/about/biographies.aspx",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-gov-newsom",
+      "slug": "gavin-newsom",
+      "fullName": "Gavin Christopher Newsom",
+      "aliases": ["Gavin Newsom"],
+      "birthDate": "1967-10-10",
+      "birthPlace": "San Francisco, California",
+      "party": "Democrat",
+      "education": ["Santa Clara University (B.S.)"],
+      "officialWebsite": "https://www.gov.ca.gov",
+      "status": "current",
+      "bio": "40th Governor of California, serving since 2019. Previously served as 49th Lieutenant Governor of California and Mayor of San Francisco.",
+      "officeId": "office-gov-ca",
+      "officeName": "Governor of California",
+      "jurisdictionLevel": "state",
+      "jurisdictionState": "California",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-gov-ca",
+          "officeName": "Governor of California",
+          "startDate": "2019-01-07",
+          "appointedOrElected": "elected",
+          "sourceIds": ["src-gov-ca"]
+        },
+        {
+          "officeId": "office-ltgov-ca",
+          "officeName": "Lieutenant Governor of California",
+          "startDate": "2011-01-10",
+          "endDate": "2019-01-07",
+          "appointedOrElected": "elected",
+          "sourceIds": ["src-gov-ca"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-gov-ca",
+          "title": "Office of Governor Gavin Newsom",
+          "publisher": "State of California (.gov)",
+          "url": "https://www.gov.ca.gov",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-gov-abbott",
+      "slug": "greg-abbott",
+      "fullName": "Gregory Wayne Abbott",
+      "aliases": ["Greg Abbott"],
+      "birthDate": "1957-11-13",
+      "birthPlace": "Wichita Falls, Texas",
+      "party": "Republican",
+      "education": ["University of Texas at Austin (B.B.A.)", "Vanderbilt University Law School (J.D.)"],
+      "officialWebsite": "https://gov.texas.gov",
+      "status": "current",
+      "bio": "48th Governor of Texas, serving since 2015. Former Attorney General of Texas and Justice on the Supreme Court of Texas.",
+      "officeId": "office-gov-tx",
+      "officeName": "Governor of Texas",
+      "jurisdictionLevel": "state",
+      "jurisdictionState": "Texas",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-gov-tx",
+          "officeName": "Governor of Texas",
+          "startDate": "2015-01-20",
+          "appointedOrElected": "elected",
+          "sourceIds": ["src-gov-tx"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-gov-tx",
+          "title": "Office of the Texas Governor — Greg Abbott",
+          "publisher": "State of Texas (.gov)",
+          "url": "https://gov.texas.gov/governor-abbott",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-gov-hogan-former",
+      "slug": "larry-hogan",
+      "fullName": "Lawrence Joseph Hogan Jr.",
+      "aliases": ["Larry Hogan"],
+      "birthDate": "1956-05-25",
+      "birthPlace": "Washington, D.C.",
+      "party": "Republican",
+      "education": ["Florida State University (B.A.)"],
+      "officialWebsite": "https://msa.maryland.gov/msa/mdmanual/08conoff/gov/html/msa14875.html",
+      "status": "former",
+      "bio": "62nd Governor of Maryland (2015–2023). Chair of the National Governors Association (2019–2020).",
+      "officeId": "office-gov-md",
+      "officeName": "Governor of Maryland",
+      "jurisdictionLevel": "state",
+      "jurisdictionState": "Maryland",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-gov-md",
+          "officeName": "Governor of Maryland",
+          "startDate": "2015-01-21",
+          "endDate": "2023-01-18",
+          "appointedOrElected": "elected",
+          "sourceIds": ["src-md-archives"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-md-archives",
+          "title": "Maryland Manual On-Line: Former Governor Lawrence J. Hogan, Jr.",
+          "publisher": "Maryland State Archives (.gov)",
+          "url": "https://msa.maryland.gov/msa/mdmanual/08conoff/gov/html/msa14875.html",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-mayor-bass",
+      "slug": "karen-bass",
+      "fullName": "Karen Ruth Bass",
+      "aliases": ["Karen Bass"],
+      "birthDate": "1953-10-03",
+      "birthPlace": "Los Angeles, California",
+      "party": "Democrat",
+      "education": ["California State University, Dominguez Hills (B.S.)", "University of Southern California (M.S.W.)"],
+      "officialWebsite": "https://mayor.lacity.gov",
+      "status": "current",
+      "bio": "43rd Mayor of Los Angeles, serving since 2022. Former U.S. Representative (CA-37) and Speaker of the California State Assembly.",
+      "officeId": "office-mayor-la",
+      "officeName": "Mayor of Los Angeles",
+      "jurisdictionLevel": "local",
+      "jurisdictionState": "California",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-mayor-la",
+          "officeName": "Mayor of Los Angeles",
+          "startDate": "2022-12-12",
+          "appointedOrElected": "elected",
+          "sourceIds": ["src-mayor-la"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-mayor-la",
+          "title": "Office of Mayor Karen Bass",
+          "publisher": "City of Los Angeles (.gov)",
+          "url": "https://mayor.lacity.gov",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-mayor-ryan",
+      "slug": "sean-m-ryan",
+      "fullName": "Sean M. Ryan",
+      "aliases": ["Sean Ryan"],
+      "birthDate": "1965-06-21",
+      "birthPlace": "Lackawanna, New York",
+      "party": "Democrat",
+      "education": ["SUNY Fredonia (B.A.)", "Brooklyn Law School (J.D.)"],
+      "officialWebsite": "https://www.buffalony.gov/mayor",
+      "status": "current",
+      "bio": "64th Mayor of the City of Buffalo, New York, took office January 1, 2026. Former New York State Senator.",
+      "officeId": "office-mayor-buffalo",
+      "officeName": "Mayor of Buffalo",
+      "jurisdictionLevel": "local",
+      "jurisdictionState": "New York",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-mayor-buffalo",
+          "officeName": "Mayor of Buffalo",
+          "startDate": "2026-01-01",
+          "appointedOrElected": "elected",
+          "sourceIds": ["src-buffalo-mayor"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-buffalo-mayor",
+          "title": "City of Buffalo Official Mayor's Office",
+          "publisher": "City of Buffalo (.gov)",
+          "url": "https://www.buffalony.gov/mayor",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-mgr-banger",
+      "slug": "patrick-banger",
+      "fullName": "Patrick Banger",
+      "aliases": ["Pat Banger"],
+      "party": "Nonpartisan",
+      "education": ["Webster University (M.B.A.)"],
+      "officialWebsite": "https://www.gilbertaz.gov",
+      "status": "current",
+      "bio": "Town Manager of Gilbert, Arizona, serving since 2011. Oversees executive municipal operations and administrative departments.",
+      "officeId": "office-mgr-gilbert",
+      "officeName": "Town Manager of Gilbert",
+      "jurisdictionLevel": "local",
+      "jurisdictionState": "Arizona",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-mgr-gilbert",
+          "officeName": "Town Manager of Gilbert",
+          "startDate": "2011-08-01",
+          "appointedOrElected": "appointed",
+          "sourceIds": ["src-gilbert-mgr"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-gilbert-mgr",
+          "title": "Town of Gilbert Town Manager Office",
+          "publisher": "Town of Gilbert (.gov)",
+          "url": "https://www.gilbertaz.gov/departments/town-manager",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "person-eda-mcnair",
+      "slug": "ellen-mcnair",
+      "fullName": "Ellen McNair",
+      "party": "Nonpartisan",
+      "education": ["Auburn University"],
+      "officialWebsite": "https://commerce.alabama.gov",
+      "status": "current",
+      "bio": "Secretary of the Alabama Department of Commerce, appointed by Governor Kay Ivey in 2024 to lead statewide economic recruitment.",
+      "officeId": "office-eda-al",
+      "officeName": "Secretary of Commerce (Alabama)",
+      "jurisdictionLevel": "state",
+      "jurisdictionState": "Alabama",
+      "verificationLevel": "verified",
+      "lastVerified": "2026-10-15",
+      "timeline": [
+        {
+          "officeId": "office-eda-al",
+          "officeName": "Secretary of Commerce",
+          "startDate": "2024-01-01",
+          "appointedOrElected": "appointed",
+          "sourceIds": ["src-commerce-al"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-commerce-al",
+          "title": "Alabama Department of Commerce Leadership Directory",
+          "publisher": "State of Alabama (.gov)",
+          "url": "https://commerce.alabama.gov/about-us/leadership/",
+          "type": "primary",
+          "accessedAt": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office-potus",
+      "slug": "president-of-the-united-states",
+      "name": "President of the United States",
+      "branch": "executive",
+      "level": "federal",
+      "currentHolderId": "person-fed-pres",
+      "currentHolderName": "Donald J. Trump",
+      "predecessor": "Joe Biden",
+      "description": "Head of state and head of government of the United States of America.",
+      "holdersTimeline": [
+        { "personId": "person-fed-pres", "personName": "Donald J. Trump", "personSlug": "donald-j-trump", "startDate": "2025-01-20", "party": "Republican" },
+        { "personId": "person-fed-biden", "personName": "Joe Biden", "personSlug": "joe-biden", "startDate": "2021-01-20", "endDate": "2025-01-20", "party": "Democrat" },
+        { "personId": "person-fed-pres", "personName": "Donald J. Trump", "personSlug": "donald-j-trump", "startDate": "2017-01-20", "endDate": "2021-01-20", "party": "Republican" }
+      ]
+    },
+    {
+      "id": "office-vpotus",
+      "slug": "vice-president-of-the-united-states",
+      "name": "Vice President of the United States",
+      "branch": "executive",
+      "level": "federal",
+      "currentHolderId": "person-fed-vp",
+      "currentHolderName": "JD Vance",
+      "predecessor": "Kamala Harris",
+      "description": "Second-highest executive officer of the federal government and President of the Senate.",
+      "holdersTimeline": [
+        { "personId": "person-fed-vp", "personName": "JD Vance", "personSlug": "jd-vance", "startDate": "2025-01-20", "party": "Republican" },
+        { "personId": "person-fed-harris", "personName": "Kamala Harris", "personSlug": "kamala-harris", "startDate": "2021-01-20", "endDate": "2025-01-20", "party": "Democrat" }
+      ]
+    },
+    {
+      "id": "office-scotus-cj",
+      "slug": "chief-justice-of-the-united-states",
+      "name": "Chief Justice of the United States",
+      "branch": "judicial",
+      "level": "federal",
+      "currentHolderId": "person-scotus-roberts",
+      "currentHolderName": "John G. Roberts Jr.",
+      "predecessor": "William Rehnquist",
+      "description": "Highest judicial officer in the United States and head of the federal court system.",
+      "holdersTimeline": [
+        { "personId": "person-scotus-roberts", "personName": "John G. Roberts Jr.", "personSlug": "john-g-roberts-jr", "startDate": "2005-09-29", "party": "Independent" }
+      ]
+    },
+    {
+      "id": "office-gov-ca",
+      "slug": "governor-of-california",
+      "name": "Governor of California",
+      "branch": "executive",
+      "level": "state",
+      "jurisdictionState": "California",
+      "currentHolderId": "person-gov-newsom",
+      "currentHolderName": "Gavin Newsom",
+      "predecessor": "Jerry Brown",
+      "description": "Chief executive officer of the State of California.",
+      "holdersTimeline": [
+        { "personId": "person-gov-newsom", "personName": "Gavin Newsom", "personSlug": "gavin-newsom", "startDate": "2019-01-07", "party": "Democrat" }
+      ]
+    },
+    {
+      "id": "office-gov-tx",
+      "slug": "governor-of-texas",
+      "name": "Governor of Texas",
+      "branch": "executive",
+      "level": "state",
+      "jurisdictionState": "Texas",
+      "currentHolderId": "person-gov-abbott",
+      "currentHolderName": "Greg Abbott",
+      "predecessor": "Rick Perry",
+      "description": "Chief executive officer of the State of Texas.",
+      "holdersTimeline": [
+        { "personId": "person-gov-abbott", "personName": "Greg Abbott", "personSlug": "greg-abbott", "startDate": "2015-01-20", "party": "Republican" }
+      ]
+    },
+    {
+      "id": "office-mayor-la",
+      "slug": "mayor-of-los-angeles",
+      "name": "Mayor of Los Angeles",
+      "branch": "executive",
+      "level": "local",
+      "jurisdictionState": "California",
+      "currentHolderId": "person-mayor-bass",
+      "currentHolderName": "Karen Bass",
+      "predecessor": "Eric Garcetti",
+      "description": "Chief executive of the government of Los Angeles, California.",
+      "holdersTimeline": [
+        { "personId": "person-mayor-bass", "personName": "Karen Bass", "personSlug": "karen-bass", "startDate": "2022-12-12", "party": "Democrat" }
+      ]
+    }
+  ]
+}

@@ -2,21 +2,26 @@ jurisdiction_level,jurisdiction_name,jurisdiction_type,parent_jurisdiction
 federal,United States,federal,
 state_territory,Alabama,state,
 state_territory,Alaska,state,
+state_territory,American Samoa,territory,
 state_territory,Arizona,state,
 state_territory,Arkansas,state,
 state_territory,California,state,
+state_territory,"Chicago, IL",state,
 state_territory,Colorado,state,
 state_territory,Connecticut,state,
 state_territory,Delaware,state,
 state_territory,Florida,state,
 state_territory,Georgia,state,
+state_territory,Guam,territory,
 state_territory,Hawaii,state,
+state_territory,"Houston, TX",state,
 state_territory,Idaho,state,
 state_territory,Illinois,state,
 state_territory,Indiana,state,
 state_territory,Iowa,state,
 state_territory,Kansas,state,
 state_territory,Kentucky,state,
+state_territory,"Los Angeles, CA",state,
 state_territory,Louisiana,state,
 state_territory,Maine,state,
 state_territory,Maryland,state,
@@ -32,17 +37,22 @@ state_territory,New Hampshire,state,
 state_territory,New Jersey,state,
 state_territory,New Mexico,state,
 state_territory,New York,state,
+state_territory,"New York City, NY",state,
 state_territory,North Carolina,state,
 state_territory,North Dakota,state,
+state_territory,Northern Mariana Islands,territory,
 state_territory,Ohio,state,
 state_territory,Oklahoma,state,
 state_territory,Oregon,state,
 state_territory,Pennsylvania,state,
+state_territory,"Phoenix, AZ",state,
+state_territory,Puerto Rico,territory,
 state_territory,Rhode Island,state,
 state_territory,South Carolina,state,
 state_territory,South Dakota,state,
 state_territory,Tennessee,state,
 state_territory,Texas,state,
+state_territory,U.S. Virgin Islands,territory,
 state_territory,Utah,state,
 state_territory,Vermont,state,
 state_territory,Virginia,state,
@@ -50,66 +60,1189 @@ state_territory,Washington,state,
 state_territory,West Virginia,state,
 state_territory,Wisconsin,state,
 state_territory,Wyoming,state,
-state_territory,American Samoa,territory,
-state_territory,Guam,territory,
-state_territory,Northern Mariana Islands,territory,
-state_territory,Puerto Rico,territory,
-state_territory,U.S. Virgin Islands,territory,
 municipality,District of Columbia,federal_district,
-municipality,Arden,municipality,Delaware
-municipality,Ardencroft,municipality,Delaware
-municipality,Ardentown,municipality,Delaware
-municipality,Bellefonte,municipality,Delaware
-municipality,Clayton,municipality,Delaware
-municipality,Delaware City,municipality,Delaware
-municipality,Elsmere,municipality,Delaware
-municipality,Middletown,municipality,Delaware
-municipality,New Castle,municipality,Delaware
-municipality,Newark,municipality,Delaware
-municipality,Newport,municipality,Delaware
-municipality,Odessa,municipality,Delaware
-municipality,Smyrna,municipality,Delaware
-municipality,Townsend,municipality,Delaware
-municipality,Wilmington,municipality,Delaware
-municipality,Bowers Beach,municipality,Delaware
-municipality,Camden,municipality,Delaware
-municipality,Cheswold,municipality,Delaware
+municipality,Auburn,municipality,Alabama
+municipality,Birmingham,municipality,Alabama
+municipality,Hoover,municipality,Alabama
+municipality,Madison,municipality,Alabama
+municipality,Vestavia Hills,municipality,Alabama
+municipality,Anchorage,municipality,Alaska
+municipality,Fairbanks,municipality,Alaska
+municipality,Apache Junction,municipality,Arizona
+municipality,Avondale,municipality,Arizona
+municipality,Buckeye,municipality,Arizona
+municipality,Bullhead City,municipality,Arizona
+municipality,Casa Grande,municipality,Arizona
+municipality,Chandler,municipality,Arizona
+municipality,El Mirage,municipality,Arizona
+municipality,Flagstaff,municipality,Arizona
+municipality,Gilbert,municipality,Arizona
+municipality,Glendale,municipality,Arizona
+municipality,Goodyear,municipality,Arizona
+municipality,Kingman,municipality,Arizona
+municipality,Lake Havasu City,municipality,Arizona
+municipality,Marana,municipality,Arizona
+municipality,Maricopa,municipality,Arizona
+municipality,Mesa,municipality,Arizona
+municipality,Nogales,municipality,Arizona
+municipality,Oro Valley,municipality,Arizona
+municipality,Peoria,municipality,Arizona
+municipality,Phoenix,municipality,Arizona
+municipality,Prescott,municipality,Arizona
+municipality,Queen Creek,municipality,Arizona
+municipality,Sahuarita,municipality,Arizona
+municipality,San Luis,municipality,Arizona
+municipality,Scottsdale,municipality,Arizona
+municipality,Sierra Vista,municipality,Arizona
+municipality,Surprise,municipality,Arizona
+municipality,Tempe,municipality,Arizona
+municipality,Tucson,municipality,Arizona
+municipality,Yuma,municipality,Arizona
+municipality,Benton,municipality,Arkansas
+municipality,Bentonville,municipality,Arkansas
+municipality,Fayetteville,municipality,Arkansas
+municipality,Hot Springs,municipality,Arkansas
+municipality,Jonesboro,municipality,Arkansas
+municipality,Little Rock,municipality,Arkansas
+municipality,North Little Rock,municipality,Arkansas
+municipality,Russellville,municipality,Arkansas
+municipality,Sherwood,municipality,Arkansas
+municipality,Springdale,municipality,Arkansas
+municipality,Texarkana,municipality,Arkansas
+municipality,Adelanto,municipality,California
+municipality,Alameda,municipality,California
+municipality,Alhambra,municipality,California
+municipality,Aliso Viejo,municipality,California
+municipality,Anaheim,municipality,California
+municipality,Antioch,municipality,California
+municipality,Apple Valley,municipality,California
+municipality,Arcadia,municipality,California
+municipality,Arroyo Grande,municipality,California
+municipality,Atascadero,municipality,California
+municipality,Azusa,municipality,California
+municipality,Bakersfield,municipality,California
+municipality,Baldwin Park,municipality,California
+municipality,Banning,municipality,California
+municipality,Barstow,municipality,California
+municipality,Beaumont,municipality,California
+municipality,Bell,municipality,California
+municipality,Bell Gardens,municipality,California
+municipality,Bellflower,municipality,California
+municipality,Berkeley,municipality,California
+municipality,Beverly Hills,municipality,California
+municipality,Brea,municipality,California
+municipality,Brentwood,municipality,California
+municipality,Buena Park,municipality,California
+municipality,Burbank,municipality,California
+municipality,Burlingame,municipality,California
+municipality,Calexico,municipality,California
+municipality,Camarillo,municipality,California
+municipality,Campbell,municipality,California
+municipality,Carlsbad,municipality,California
+municipality,Carson,municipality,California
+municipality,Cathedral City,municipality,California
+municipality,Ceres,municipality,California
+municipality,Cerritos,municipality,California
+municipality,Chico,municipality,California
+municipality,Chino,municipality,California
+municipality,Chino Hills,municipality,California
+municipality,Chula Vista,municipality,California
+municipality,Citrus Heights,municipality,California
+municipality,Claremont,municipality,California
+municipality,Clovis,municipality,California
+municipality,Coachella,municipality,California
+municipality,Colton,municipality,California
+municipality,Compton,municipality,California
+municipality,Concord,municipality,California
+municipality,Corona,municipality,California
+municipality,Costa Mesa,municipality,California
+municipality,Covina,municipality,California
+municipality,Culver City,municipality,California
+municipality,Cupertino,municipality,California
+municipality,Cypress,municipality,California
+municipality,Daly City,municipality,California
+municipality,Dana Point,municipality,California
+municipality,Danville,municipality,California
+municipality,Davis,municipality,California
+municipality,Desert Hot Springs,municipality,California
+municipality,Diamond Bar,municipality,California
+municipality,Downey,municipality,California
+municipality,Dublin,municipality,California
+municipality,Eastvale,municipality,California
+municipality,El Cajon,municipality,California
+municipality,El Centro,municipality,California
+municipality,El Monte,municipality,California
+municipality,Elk Grove,municipality,California
+municipality,Encinitas,municipality,California
+municipality,Escondido,municipality,California
+municipality,Fairfield,municipality,California
+municipality,Folsom,municipality,California
+municipality,Fontana,municipality,California
+municipality,Foster City,municipality,California
+municipality,Fountain Valley,municipality,California
+municipality,Fremont,municipality,California
+municipality,Fresno,municipality,California
+municipality,Fullerton,municipality,California
+municipality,Garden Grove,municipality,California
+municipality,Gardena,municipality,California
+municipality,Gilroy,municipality,California
+municipality,Glendale,municipality,California
+municipality,Glendora,municipality,California
+municipality,Goleta,municipality,California
+municipality,Hanford,municipality,California
+municipality,Hawthorne,municipality,California
+municipality,Hayward,municipality,California
+municipality,Hemet,municipality,California
+municipality,Hesperia,municipality,California
+municipality,Highland,municipality,California
+municipality,Hollister,municipality,California
+municipality,Huntington Beach,municipality,California
+municipality,Huntington Park,municipality,California
+municipality,Indio,municipality,California
+municipality,Inglewood,municipality,California
+municipality,Irvine,municipality,California
+municipality,La Habra,municipality,California
+municipality,La Mesa,municipality,California
+municipality,La Mirada,municipality,California
+municipality,La Puente,municipality,California
+municipality,La Quinta,municipality,California
+municipality,La Verne,municipality,California
+municipality,Laguna Hills,municipality,California
+municipality,Laguna Niguel,municipality,California
+municipality,Lake Elsinore,municipality,California
+municipality,Lake Forest,municipality,California
+municipality,Lakewood,municipality,California
+municipality,Lancaster,municipality,California
+municipality,Lawndale,municipality,California
+municipality,Lincoln,municipality,California
+municipality,Livermore,municipality,California
+municipality,Lodi,municipality,California
+municipality,Long Beach,municipality,California
+municipality,Los Altos,municipality,California
+municipality,Los Angeles,municipality,California
+municipality,Los Banos,municipality,California
+municipality,Los Gatos,municipality,California
+municipality,Lynwood,municipality,California
+municipality,Madera,municipality,California
+municipality,Manhattan Beach,municipality,California
+municipality,Manteca,municipality,California
+municipality,Martinez,municipality,California
+municipality,Menifee,municipality,California
+municipality,Menlo Park,municipality,California
+municipality,Merced,municipality,California
+municipality,Milpitas,municipality,California
+municipality,Mission Viejo,municipality,California
+municipality,Modesto,municipality,California
+municipality,Monrovia,municipality,California
+municipality,Montclair,municipality,California
+municipality,Montebello,municipality,California
+municipality,Monterey Park,municipality,California
+municipality,Moorpark,municipality,California
+municipality,Moreno Valley,municipality,California
+municipality,Morgan Hill,municipality,California
+municipality,Mountain View,municipality,California
+municipality,Murrieta,municipality,California
+municipality,National City,municipality,California
+municipality,Newark,municipality,California
+municipality,Newport Beach,municipality,California
+municipality,Norwalk,municipality,California
+municipality,Novato,municipality,California
+municipality,Oakland,municipality,California
+municipality,Oakley,municipality,California
+municipality,Oceanside,municipality,California
+municipality,Ontario,municipality,California
+municipality,Orange,municipality,California
+municipality,Oroville,municipality,California
+municipality,Oxnard,municipality,California
+municipality,Pacifica,municipality,California
+municipality,Palm Desert,municipality,California
+municipality,Palm Springs,municipality,California
+municipality,Palmdale,municipality,California
+municipality,Palo Alto,municipality,California
+municipality,Paradise,municipality,California
+municipality,Paramount,municipality,California
+municipality,Pasadena,municipality,California
+municipality,Perris,municipality,California
+municipality,Petaluma,municipality,California
+municipality,Pico Rivera,municipality,California
+municipality,Pittsburg,municipality,California
+municipality,Placentia,municipality,California
+municipality,Placerville,municipality,California
+municipality,Pleasant Hill,municipality,California
+municipality,Pleasanton,municipality,California
+municipality,Pomona,municipality,California
+municipality,Porterville,municipality,California
+municipality,Poway,municipality,California
+municipality,Rancho Cordova,municipality,California
+municipality,Rancho Cucamonga,municipality,California
+municipality,Rancho Palos Verdes,municipality,California
+municipality,Rancho Santa Margarita,municipality,California
+municipality,Redding,municipality,California
+municipality,Redlands,municipality,California
+municipality,Redondo Beach,municipality,California
+municipality,Redwood City,municipality,California
+municipality,Reedley,municipality,California
+municipality,Rialto,municipality,California
+municipality,Richmond,municipality,California
+municipality,Ridgecrest,municipality,California
+municipality,Riverside,municipality,California
+municipality,Rocklin,municipality,California
+municipality,Rohnert Park,municipality,California
+municipality,Rosemead,municipality,California
+municipality,Roseville,municipality,California
+municipality,Sacramento,municipality,California
+municipality,Salinas,municipality,California
+municipality,San Bernardino,municipality,California
+municipality,San Bruno,municipality,California
+municipality,San Clemente,municipality,California
+municipality,San Diego,municipality,California
+municipality,San Dimas,municipality,California
+municipality,San Francisco,municipality,California
+municipality,San Gabriel,municipality,California
+municipality,San Jacinto,municipality,California
+municipality,San Jose,municipality,California
+municipality,San Juan Capistrano,municipality,California
+municipality,San Leandro,municipality,California
+municipality,San Luis Obispo,municipality,California
+municipality,San Marcos,municipality,California
+municipality,San Mateo,municipality,California
+municipality,San Pablo,municipality,California
+municipality,San Rafael,municipality,California
+municipality,San Ramon,municipality,California
+municipality,Santa Ana,municipality,California
+municipality,Santa Barbara,municipality,California
+municipality,Santa Clara,municipality,California
+municipality,Santa Clarita,municipality,California
+municipality,Santa Cruz,municipality,California
+municipality,Santa Maria,municipality,California
+municipality,Santa Monica,municipality,California
+municipality,Santa Paula,municipality,California
+municipality,Santa Rosa,municipality,California
+municipality,Santee,municipality,California
+municipality,Saratoga,municipality,California
+municipality,Seaside,municipality,California
+municipality,Selma,municipality,California
+municipality,Simi Valley,municipality,California
+municipality,Sonoma,municipality,California
+municipality,South Gate,municipality,California
+municipality,South San Francisco,municipality,California
+municipality,Stanton,municipality,California
+municipality,Stockton,municipality,California
+municipality,Sunnyvale,municipality,California
+municipality,Temecula,municipality,California
+municipality,Temple City,municipality,California
+municipality,Thousand Oaks,municipality,California
+municipality,Torrance,municipality,California
+municipality,Tracy,municipality,California
+municipality,Tulare,municipality,California
+municipality,Turlock,municipality,California
+municipality,Tustin,municipality,California
+municipality,Union City,municipality,California
+municipality,Upland,municipality,California
+municipality,Vacaville,municipality,California
+municipality,Vallejo,municipality,California
+municipality,Victorville,municipality,California
+municipality,Visalia,municipality,California
+municipality,Vista,municipality,California
+municipality,Walnut,municipality,California
+municipality,Walnut Creek,municipality,California
+municipality,Watsonville,municipality,California
+municipality,West Covina,municipality,California
+municipality,West Hollywood,municipality,California
+municipality,West Sacramento,municipality,California
+municipality,Westminster,municipality,California
+municipality,Whittier,municipality,California
+municipality,Wildomar,municipality,California
+municipality,Woodland,municipality,California
+municipality,Yorba Linda,municipality,California
+municipality,Yuba City,municipality,California
+municipality,Yucaipa,municipality,California
+municipality,Arvada,municipality,Colorado
+municipality,Aurora,municipality,Colorado
+municipality,Boulder,municipality,Colorado
+municipality,Broomfield,municipality,Colorado
+municipality,Centennial,municipality,Colorado
+municipality,Colorado Springs,municipality,Colorado
+municipality,Denver,municipality,Colorado
+municipality,Englewood,municipality,Colorado
+municipality,Grand Junction,municipality,Colorado
+municipality,Greeley,municipality,Colorado
+municipality,Lafayette,municipality,Colorado
+municipality,Lakewood,municipality,Colorado
+municipality,Littleton,municipality,Colorado
+municipality,Longmont,municipality,Colorado
+municipality,Loveland,municipality,Colorado
+municipality,Pueblo,municipality,Colorado
+municipality,Bridgeport,municipality,Connecticut
+municipality,Bristol,municipality,Connecticut
+municipality,Hartford,municipality,Connecticut
+municipality,Meriden,municipality,Connecticut
+municipality,Middletown,municipality,Connecticut
+municipality,Naugatuck,municipality,Connecticut
+municipality,New Britain,municipality,Connecticut
+municipality,New Haven,municipality,Connecticut
+municipality,Norwalk,municipality,Connecticut
+municipality,Norwich,municipality,Connecticut
+municipality,Shelton,municipality,Connecticut
+municipality,Torrington,municipality,Connecticut
+municipality,Waterbury,municipality,Connecticut
+municipality,West Haven,municipality,Connecticut
 municipality,Dover,municipality,Delaware
-municipality,Farmington,municipality,Delaware
-municipality,Felton,municipality,Delaware
-municipality,Frederica,municipality,Delaware
-municipality,Harrington,municipality,Delaware
-municipality,Hartly,municipality,Delaware
-municipality,Houston,municipality,Delaware
-municipality,Kenton,municipality,Delaware
-municipality,Leipsic,municipality,Delaware
-municipality,Little Creek,municipality,Delaware
-municipality,Magnolia,municipality,Delaware
-municipality,Milford,municipality,Delaware
-municipality,Viola,municipality,Delaware
-municipality,Woodside,municipality,Delaware
-municipality,Wyoming,municipality,Delaware
-municipality,Bethany Beach,municipality,Delaware
-municipality,Bethel,municipality,Delaware
-municipality,Blades,municipality,Delaware
-municipality,Bridgeville,municipality,Delaware
-municipality,Dagsboro,municipality,Delaware
-municipality,Delmar,municipality,Delaware
-municipality,Dewey Beach,municipality,Delaware
-municipality,Ellendale,municipality,Delaware
-municipality,Fenwick Island,municipality,Delaware
-municipality,Frankford,municipality,Delaware
-municipality,Georgetown,municipality,Delaware
-municipality,Greenwood,municipality,Delaware
-municipality,Henlopen Acres,municipality,Delaware
-municipality,Laurel,municipality,Delaware
-municipality,Lewes,municipality,Delaware
-municipality,Millsboro,municipality,Delaware
-municipality,Millville,municipality,Delaware
-municipality,Milton,municipality,Delaware
-municipality,Ocean View,municipality,Delaware
-municipality,Rehoboth Beach,municipality,Delaware
-municipality,Seaford,municipality,Delaware
-municipality,Selbyville,municipality,Delaware
-municipality,Slaughter Beach,municipality,Delaware
-municipality,South Bethany,municipality,Delaware
+municipality,Middletown,municipality,Delaware
+municipality,Newark,municipality,Delaware
+municipality,Wilmington,municipality,Delaware
+municipality,Washington,municipality,District of Columbia
+municipality,Boca Raton,municipality,Florida
+municipality,Bonita Springs,municipality,Florida
+municipality,Boynton Beach,municipality,Florida
+municipality,Bradenton,municipality,Florida
+municipality,Cape Coral,municipality,Florida
+municipality,Clearwater,municipality,Florida
+municipality,Coral Gables,municipality,Florida
+municipality,Coral Gables / Miami,municipality,Florida
+municipality,Coral Springs,municipality,Florida
+municipality,Crestview,municipality,Florida
+municipality,Cutler Bay,municipality,Florida
+municipality,Daytona Beach,municipality,Florida
+municipality,DeLand,municipality,Florida
+municipality,Deltona,municipality,Florida
+municipality,Doral,municipality,Florida
+municipality,Fort Lauderdale,municipality,Florida
+municipality,Fort Pierce,municipality,Florida
+municipality,Gainesville,municipality,Florida
+municipality,Hialeah,municipality,Florida
+municipality,Hollywood,municipality,Florida
+municipality,Homestead,municipality,Florida
+municipality,Jacksonville,municipality,Florida
+municipality,Key West,municipality,Florida
+municipality,Kissimmee,municipality,Florida
+municipality,Lake Worth,municipality,Florida
+municipality,Lakeland,municipality,Florida
+municipality,Largo,municipality,Florida
+municipality,Miami,municipality,Florida
+municipality,Miami Beach,municipality,Florida
+municipality,Miami Gardens,municipality,Florida
+municipality,Miramar,municipality,Florida
+municipality,North Miami,municipality,Florida
+municipality,North Miami Beach,municipality,Florida
+municipality,North Port,municipality,Florida
+municipality,Oakland Park,municipality,Florida
+municipality,Ocala,municipality,Florida
+municipality,Ocoee,municipality,Florida
+municipality,Orlando,municipality,Florida
+municipality,Palm Bay,municipality,Florida
+municipality,Palm Beach Gardens,municipality,Florida
+municipality,Palm Coast,municipality,Florida
+municipality,Panama City,municipality,Florida
+municipality,Pembroke Pines,municipality,Florida
+municipality,Pensacola,municipality,Florida
+municipality,Pinellas Park,municipality,Florida
+municipality,Plant City,municipality,Florida
+municipality,Plantation,municipality,Florida
+municipality,Pompano Beach,municipality,Florida
+municipality,Port Orange,municipality,Florida
+municipality,Port Saint Lucie,municipality,Florida
+municipality,Riviera Beach,municipality,Florida
+municipality,Royal Palm Beach,municipality,Florida
+municipality,Saint Cloud,municipality,Florida
+municipality,Saint Petersburg,municipality,Florida
+municipality,Sarasota,municipality,Florida
+municipality,St. Petersburg,municipality,Florida
+municipality,Sunrise,municipality,Florida
+municipality,Tallahassee,municipality,Florida
+municipality,Tampa,municipality,Florida
+municipality,Titusville,municipality,Florida
+municipality,West Palm Beach,municipality,Florida
+municipality,Winter Haven,municipality,Florida
+municipality,Zephyrhills,municipality,Florida
+municipality,Albany,municipality,Georgia
+municipality,Alpharetta,municipality,Georgia
+municipality,Athens,municipality,Georgia
+municipality,Atlanta,municipality,Georgia
+municipality,Augusta,municipality,Georgia
+municipality,Brookhaven,municipality,Georgia
+municipality,Brunswick,municipality,Georgia
+municipality,Carrollton,municipality,Georgia
+municipality,Cartersville,municipality,Georgia
+municipality,Columbus,municipality,Georgia
+municipality,Dalton,municipality,Georgia
+municipality,Douglasville,municipality,Georgia
+municipality,Dunwoody,municipality,Georgia
+municipality,East Point,municipality,Georgia
+municipality,Gainesville,municipality,Georgia
+municipality,Hinesville,municipality,Georgia
+municipality,Johns Creek,municipality,Georgia
+municipality,Kennesaw,municipality,Georgia
+municipality,La Grange,municipality,Georgia
+municipality,Lawrenceville,municipality,Georgia
+municipality,Marietta,municipality,Georgia
+municipality,Milledgeville,municipality,Georgia
+municipality,Milton,municipality,Georgia
+municipality,Peachtree City,municipality,Georgia
+municipality,Peachtree Corners,municipality,Georgia
+municipality,Rome,municipality,Georgia
+municipality,Roswell,municipality,Georgia
+municipality,Saint Marys,municipality,Georgia
+municipality,Sandy Springs,municipality,Georgia
+municipality,Savannah,municipality,Georgia
+municipality,Smyrna,municipality,Georgia
+municipality,Valdosta,municipality,Georgia
+municipality,Warner Robins,municipality,Georgia
+municipality,Winder,municipality,Georgia
+municipality,Honolulu,municipality,Hawaii
+municipality,Boise,municipality,Idaho
+municipality,Caldwell,municipality,Idaho
+municipality,Idaho Falls,municipality,Idaho
+municipality,Lewiston,municipality,Idaho
+municipality,Nampa,municipality,Idaho
+municipality,Twin Falls,municipality,Idaho
+municipality,Addison,municipality,Illinois
+municipality,Algonquin,municipality,Illinois
+municipality,Alton,municipality,Illinois
+municipality,Arlington Heights,municipality,Illinois
+municipality,Aurora,municipality,Illinois
+municipality,Bartlett,municipality,Illinois
+municipality,Berwyn,municipality,Illinois
+municipality,Bloomington,municipality,Illinois
+municipality,Bolingbrook,municipality,Illinois
+municipality,Buffalo Grove,municipality,Illinois
+municipality,Calumet City,municipality,Illinois
+municipality,Carbondale,municipality,Illinois
+municipality,Champaign,municipality,Illinois
+municipality,Chicago,municipality,Illinois
+municipality,Chicago Heights,municipality,Illinois
+municipality,Cicero,municipality,Illinois
+municipality,Crystal Lake,municipality,Illinois
+municipality,Danville,municipality,Illinois
+municipality,DeKalb,municipality,Illinois
+municipality,Decatur,municipality,Illinois
+municipality,Des Plaines,municipality,Illinois
+municipality,Downers Grove,municipality,Illinois
+municipality,Elgin,municipality,Illinois
+municipality,Elk Grove Village,municipality,Illinois
+municipality,Evanston,municipality,Illinois
+municipality,Galesburg,municipality,Illinois
+municipality,Glenview,municipality,Illinois
+municipality,Gurnee,municipality,Illinois
+municipality,Hoffman Estates,municipality,Illinois
+municipality,Joliet,municipality,Illinois
+municipality,Kankakee,municipality,Illinois
+municipality,Lombard,municipality,Illinois
+municipality,Moline,municipality,Illinois
+municipality,Mount Prospect,municipality,Illinois
+municipality,Naperville,municipality,Illinois
+municipality,Normal,municipality,Illinois
+municipality,Northbrook,municipality,Illinois
+municipality,Oak Lawn,municipality,Illinois
+municipality,Orland Park,municipality,Illinois
+municipality,Oswego,municipality,Illinois
+municipality,Palatine,municipality,Illinois
+municipality,Park Ridge,municipality,Illinois
+municipality,Pekin,municipality,Illinois
+municipality,Peru,municipality,Illinois
+municipality,Plainfield,municipality,Illinois
+municipality,Romeoville,municipality,Illinois
+municipality,Saint Charles,municipality,Illinois
+municipality,Schaumburg,municipality,Illinois
+municipality,Skokie,municipality,Illinois
+municipality,Springfield,municipality,Illinois
+municipality,Streamwood,municipality,Illinois
+municipality,Tinley Park,municipality,Illinois
+municipality,Urbana,municipality,Illinois
+municipality,Waukegan,municipality,Illinois
+municipality,Wheaton,municipality,Illinois
+municipality,Wheeling,municipality,Illinois
+municipality,Woodridge,municipality,Illinois
+municipality,Carmel,municipality,Indiana
+municipality,Fort Wayne,municipality,Indiana
+municipality,Gary,municipality,Indiana
+municipality,Hammond,municipality,Indiana
+municipality,Indianapolis,municipality,Indiana
+municipality,Merrillville,municipality,Indiana
+municipality,Muncie,municipality,Indiana
+municipality,Plainfield,municipality,Indiana
+municipality,Portage,municipality,Indiana
+municipality,South Bend,municipality,Indiana
+municipality,Terre Haute,municipality,Indiana
+municipality,West Lafayette,municipality,Indiana
+municipality,Ames,municipality,Iowa
+municipality,Ankeny,municipality,Iowa
+municipality,Bettendorf,municipality,Iowa
+municipality,Cedar Rapids,municipality,Iowa
+municipality,Clinton,municipality,Iowa
+municipality,Davenport,municipality,Iowa
+municipality,Des Moines,municipality,Iowa
+municipality,Dubuque,municipality,Iowa
+municipality,Iowa City,municipality,Iowa
+municipality,Marion,municipality,Iowa
+municipality,Sioux City,municipality,Iowa
+municipality,Waterloo,municipality,Iowa
+municipality,West Des Moines,municipality,Iowa
+municipality,Garden City,municipality,Kansas
+municipality,Hutchinson,municipality,Kansas
+municipality,Kansas City,municipality,Kansas
+municipality,Lawrence,municipality,Kansas
+municipality,Leavenworth,municipality,Kansas
+municipality,Leawood,municipality,Kansas
+municipality,Lenexa,municipality,Kansas
+municipality,Manhattan,municipality,Kansas
+municipality,Olathe,municipality,Kansas
+municipality,Overland Park,municipality,Kansas
+municipality,Salina,municipality,Kansas
+municipality,Shawnee,municipality,Kansas
+municipality,Topeka,municipality,Kansas
+municipality,Wichita,municipality,Kansas
+municipality,Bowling Green,municipality,Kentucky
+municipality,Covington,municipality,Kentucky
+municipality,Florence,municipality,Kentucky
+municipality,Frankfort,municipality,Kentucky
+municipality,Georgetown,municipality,Kentucky
+municipality,Lexington,municipality,Kentucky
+municipality,London,municipality,Kentucky
+municipality,Louisville,municipality,Kentucky
+municipality,Nicholasville,municipality,Kentucky
+municipality,Owensboro,municipality,Kentucky
+municipality,Paducah,municipality,Kentucky
+municipality,Richmond,municipality,Kentucky
+municipality,Baton Rouge,municipality,Louisiana
+municipality,Bossier City,municipality,Louisiana
+municipality,Hammond,municipality,Louisiana
+municipality,Houma,municipality,Louisiana
+municipality,Kenner,municipality,Louisiana
+municipality,Lafayette,municipality,Louisiana
+municipality,Lake Charles,municipality,Louisiana
+municipality,Mandeville,municipality,Louisiana
+municipality,Monroe,municipality,Louisiana
+municipality,Morgan City,municipality,Louisiana
+municipality,New Orleans,municipality,Louisiana
+municipality,Lewiston,municipality,Maine
+municipality,Portland,municipality,Maine
+municipality,Annapolis,municipality,Maryland
+municipality,Baltimore,municipality,Maryland
+municipality,Bowie,municipality,Maryland
+municipality,College Park,municipality,Maryland
+municipality,Gaithersburg,municipality,Maryland
+municipality,Hagerstown,municipality,Maryland
+municipality,Rockville,municipality,Maryland
+municipality,Salisbury,municipality,Maryland
+municipality,Attleboro,municipality,Massachusetts
+municipality,Beverly,municipality,Massachusetts
+municipality,Boston,municipality,Massachusetts
+municipality,Brockton,municipality,Massachusetts
+municipality,Cambridge,municipality,Massachusetts
+municipality,Chelsea,municipality,Massachusetts
+municipality,Chicopee,municipality,Massachusetts
+municipality,Everett,municipality,Massachusetts
+municipality,Fall River,municipality,Massachusetts
+municipality,Haverhill,municipality,Massachusetts
+municipality,Holyoke,municipality,Massachusetts
+municipality,Lawrence,municipality,Massachusetts
+municipality,Leominster,municipality,Massachusetts
+municipality,Lowell,municipality,Massachusetts
+municipality,Lynn,municipality,Massachusetts
+municipality,Medford,municipality,Massachusetts
+municipality,Methuen,municipality,Massachusetts
+municipality,Newton,municipality,Massachusetts
+municipality,Peabody,municipality,Massachusetts
+municipality,Quincy,municipality,Massachusetts
+municipality,Revere,municipality,Massachusetts
+municipality,Salem,municipality,Massachusetts
+municipality,Somerville,municipality,Massachusetts
+municipality,Springfield,municipality,Massachusetts
+municipality,Taunton,municipality,Massachusetts
+municipality,Waltham,municipality,Massachusetts
+municipality,Waltham / Boston,municipality,Massachusetts
+municipality,Watertown,municipality,Massachusetts
+municipality,Westfield,municipality,Massachusetts
+municipality,Woburn,municipality,Massachusetts
+municipality,Worcester,municipality,Massachusetts
+municipality,Adrian,municipality,Michigan
+municipality,Ann Arbor,municipality,Michigan
+municipality,Battle Creek,municipality,Michigan
+municipality,Bay City,municipality,Michigan
+municipality,Benton Harbor,municipality,Michigan
+municipality,Dearborn,municipality,Michigan
+municipality,Dearborn Heights,municipality,Michigan
+municipality,Detroit,municipality,Michigan
+municipality,East Lansing,municipality,Michigan
+municipality,Eastpointe,municipality,Michigan
+municipality,Farmington Hills,municipality,Michigan
+municipality,Flint,municipality,Michigan
+municipality,Grand Rapids,municipality,Michigan
+municipality,Holland,municipality,Michigan
+municipality,Jackson,municipality,Michigan
+municipality,Kalamazoo,municipality,Michigan
+municipality,Kentwood,municipality,Michigan
+municipality,Lansing,municipality,Michigan
+municipality,Lansing / Detroit,municipality,Michigan
+municipality,Lincoln Park,municipality,Michigan
+municipality,Livonia,municipality,Michigan
+municipality,Madison Heights,municipality,Michigan
+municipality,Monroe,municipality,Michigan
+municipality,Mount Pleasant,municipality,Michigan
+municipality,Muskegon,municipality,Michigan
+municipality,Novi,municipality,Michigan
+municipality,Pontiac,municipality,Michigan
+municipality,Port Huron,municipality,Michigan
+municipality,Portage,municipality,Michigan
+municipality,Rochester Hills,municipality,Michigan
+municipality,Roseville,municipality,Michigan
+municipality,Royal Oak,municipality,Michigan
+municipality,Saginaw,municipality,Michigan
+municipality,Saint Clair Shores,municipality,Michigan
+municipality,South Lyon,municipality,Michigan
+municipality,Southfield,municipality,Michigan
+municipality,Sterling Heights,municipality,Michigan
+municipality,Taylor,municipality,Michigan
+municipality,Traverse City,municipality,Michigan
+municipality,Troy,municipality,Michigan
+municipality,Warren,municipality,Michigan
+municipality,Westland,municipality,Michigan
+municipality,Wyoming,municipality,Michigan
+municipality,Andover,municipality,Minnesota
+municipality,Apple Valley,municipality,Minnesota
+municipality,Bloomington,municipality,Minnesota
+municipality,Brooklyn Center,municipality,Minnesota
+municipality,Brooklyn Park,municipality,Minnesota
+municipality,Burnsville,municipality,Minnesota
+municipality,Coon Rapids,municipality,Minnesota
+municipality,Cottage Grove,municipality,Minnesota
+municipality,Duluth,municipality,Minnesota
+municipality,Eagan,municipality,Minnesota
+municipality,Eden Prairie,municipality,Minnesota
+municipality,Edina,municipality,Minnesota
+municipality,Inver Grove Heights,municipality,Minnesota
+municipality,Lakeville,municipality,Minnesota
+municipality,Mankato,municipality,Minnesota
+municipality,Maple Grove,municipality,Minnesota
+municipality,Maplewood,municipality,Minnesota
+municipality,Minneapolis,municipality,Minnesota
+municipality,Minnetonka,municipality,Minnesota
+municipality,Moorhead,municipality,Minnesota
+municipality,Plymouth,municipality,Minnesota
+municipality,Richfield,municipality,Minnesota
+municipality,Rochester,municipality,Minnesota
+municipality,Saint Cloud,municipality,Minnesota
+municipality,Saint Louis Park,municipality,Minnesota
+municipality,Saint Paul,municipality,Minnesota
+municipality,Savage,municipality,Minnesota
+municipality,Shakopee,municipality,Minnesota
+municipality,St. Paul,municipality,Minnesota
+municipality,Winona,municipality,Minnesota
+municipality,Woodbury,municipality,Minnesota
+municipality,Greenville,municipality,Mississippi
+municipality,Gulfport,municipality,Mississippi
+municipality,Hattiesburg,municipality,Mississippi
+municipality,Jackson,municipality,Mississippi
+municipality,Meridian,municipality,Mississippi
+municipality,Olive Branch,municipality,Mississippi
+municipality,Pascagoula,municipality,Mississippi
+municipality,Southaven,municipality,Mississippi
+municipality,Tupelo,municipality,Mississippi
+municipality,Ballwin,municipality,Missouri
+municipality,Blue Springs,municipality,Missouri
+municipality,Cape Girardeau,municipality,Missouri
+municipality,Chesterfield,municipality,Missouri
+municipality,Columbia,municipality,Missouri
+municipality,Farmington,municipality,Missouri
+municipality,Florissant,municipality,Missouri
+municipality,Independence,municipality,Missouri
+municipality,Jefferson City,municipality,Missouri
+municipality,Joplin,municipality,Missouri
+municipality,Kansas City,municipality,Missouri
+municipality,Lees Summit,municipality,Missouri
+municipality,Liberty,municipality,Missouri
+municipality,O'Fallon,municipality,Missouri
+municipality,Saint Charles,municipality,Missouri
+municipality,Saint Joseph,municipality,Missouri
+municipality,Saint Louis,municipality,Missouri
+municipality,Saint Peters,municipality,Missouri
+municipality,Springfield,municipality,Missouri
+municipality,St. Louis,municipality,Missouri
+municipality,St. Louis / Kansas City,municipality,Missouri
+municipality,University City,municipality,Missouri
+municipality,Wentzville,municipality,Missouri
+municipality,Wildwood,municipality,Missouri
+municipality,Billings,municipality,Montana
+municipality,Bozeman,municipality,Montana
+municipality,Butte,municipality,Montana
+municipality,Great Falls,municipality,Montana
+municipality,Helena,municipality,Montana
+municipality,Kalispell,municipality,Montana
+municipality,Missoula,municipality,Montana
+municipality,Bellevue,municipality,Nebraska
+municipality,Grand Island,municipality,Nebraska
+municipality,Kearney,municipality,Nebraska
+municipality,Lincoln,municipality,Nebraska
+municipality,Omaha,municipality,Nebraska
+municipality,Carson City,municipality,Nevada
+municipality,Henderson,municipality,Nevada
+municipality,Las Vegas,municipality,Nevada
+municipality,North Las Vegas,municipality,Nevada
+municipality,Reno,municipality,Nevada
+municipality,Concord,municipality,New Hampshire
+municipality,Manchester,municipality,New Hampshire
+municipality,Nashua,municipality,New Hampshire
+municipality,Portsmouth,municipality,New Hampshire
+municipality,Rochester,municipality,New Hampshire
+municipality,Atlantic City,municipality,New Jersey
+municipality,Bayonne,municipality,New Jersey
+municipality,Camden,municipality,New Jersey
+municipality,Clifton,municipality,New Jersey
+municipality,East Orange,municipality,New Jersey
+municipality,Elizabeth,municipality,New Jersey
+municipality,Fair Lawn,municipality,New Jersey
+municipality,Fort Lee,municipality,New Jersey
+municipality,Garfield,municipality,New Jersey
+municipality,Hackensack,municipality,New Jersey
+municipality,Hoboken,municipality,New Jersey
+municipality,Jersey City,municipality,New Jersey
+municipality,Kearny,municipality,New Jersey
+municipality,Linden,municipality,New Jersey
+municipality,Long Branch,municipality,New Jersey
+municipality,New Brunswick,municipality,New Jersey
+municipality,Newark,municipality,New Jersey
+municipality,Passaic,municipality,New Jersey
+municipality,Paterson,municipality,New Jersey
+municipality,Perth Amboy,municipality,New Jersey
+municipality,Plainfield,municipality,New Jersey
+municipality,Princeton,municipality,New Jersey
+municipality,Sayreville,municipality,New Jersey
+municipality,Trenton,municipality,New Jersey
+municipality,Union City,municipality,New Jersey
+municipality,Vineland,municipality,New Jersey
+municipality,West New York,municipality,New Jersey
+municipality,Westfield,municipality,New Jersey
+municipality,Alamogordo,municipality,New Mexico
+municipality,Albuquerque,municipality,New Mexico
+municipality,Carlsbad,municipality,New Mexico
+municipality,Clovis,municipality,New Mexico
+municipality,Farmington,municipality,New Mexico
+municipality,Hobbs,municipality,New Mexico
+municipality,Las Cruces,municipality,New Mexico
+municipality,Roswell,municipality,New Mexico
+municipality,Santa Fe,municipality,New Mexico
+municipality,Albany,municipality,New York
+municipality,Auburn,municipality,New York
+municipality,Binghamton,municipality,New York
+municipality,Bronx,municipality,New York
+municipality,Brooklyn,municipality,New York
+municipality,Buffalo,municipality,New York
+municipality,Freeport,municipality,New York
+municipality,Glens Falls,municipality,New York
+municipality,Hempstead,municipality,New York
+municipality,Ithaca,municipality,New York
+municipality,Jamestown,municipality,New York
+municipality,Long Beach,municipality,New York
+municipality,Manhattan,municipality,New York
+municipality,Mount Vernon,municipality,New York
+municipality,New Rochelle,municipality,New York
+municipality,New York,municipality,New York
+municipality,New York City,municipality,New York
+municipality,Niagara Falls,municipality,New York
+municipality,Oswego,municipality,New York
+municipality,Poughkeepsie,municipality,New York
+municipality,Queens,municipality,New York
+municipality,Rochester,municipality,New York
+municipality,Schenectady,municipality,New York
+municipality,Spring Valley,municipality,New York
+municipality,Staten Island,municipality,New York
+municipality,Syracuse,municipality,New York
+municipality,Troy,municipality,New York
+municipality,Utica,municipality,New York
+municipality,Valley Stream,municipality,New York
+municipality,Watertown,municipality,New York
+municipality,White Plains,municipality,New York
+municipality,Apex,municipality,North Carolina
+municipality,Asheboro,municipality,North Carolina
+municipality,Asheville,municipality,North Carolina
+municipality,Burlington,municipality,North Carolina
+municipality,Cary,municipality,North Carolina
+municipality,Chapel Hill,municipality,North Carolina
+municipality,Charlotte,municipality,North Carolina
+municipality,Concord,municipality,North Carolina
+municipality,Durham,municipality,North Carolina
+municipality,Fayetteville,municipality,North Carolina
+municipality,Gastonia,municipality,North Carolina
+municipality,Goldsboro,municipality,North Carolina
+municipality,Greensboro,municipality,North Carolina
+municipality,Greenville,municipality,North Carolina
+municipality,Hickory,municipality,North Carolina
+municipality,Holly Springs,municipality,North Carolina
+municipality,Jacksonville,municipality,North Carolina
+municipality,Kannapolis,municipality,North Carolina
+municipality,Matthews,municipality,North Carolina
+municipality,Monroe,municipality,North Carolina
+municipality,Mooresville,municipality,North Carolina
+municipality,Morehead City,municipality,North Carolina
+municipality,New Bern,municipality,North Carolina
+municipality,Pinehurst,municipality,North Carolina
+municipality,Raleigh,municipality,North Carolina
+municipality,Raleigh / Durham,municipality,North Carolina
+municipality,Rocky Mount,municipality,North Carolina
+municipality,Sanford,municipality,North Carolina
+municipality,Smithfield,municipality,North Carolina
+municipality,Wake Forest,municipality,North Carolina
+municipality,Wilmington,municipality,North Carolina
+municipality,Wilson,municipality,North Carolina
+municipality,Winston-Salem,municipality,North Carolina
+municipality,Bismarck,municipality,North Dakota
+municipality,Grand Forks,municipality,North Dakota
+municipality,Minot,municipality,North Dakota
+municipality,West Fargo,municipality,North Dakota
+municipality,Akron,municipality,Ohio
+municipality,Alliance,municipality,Ohio
+municipality,Athens,municipality,Ohio
+municipality,Beavercreek,municipality,Ohio
+municipality,Bowling Green,municipality,Ohio
+municipality,Brunswick,municipality,Ohio
+municipality,Canton,municipality,Ohio
+municipality,Chillicothe,municipality,Ohio
+municipality,Cincinnati,municipality,Ohio
+municipality,Cleveland,municipality,Ohio
+municipality,Cleveland Heights,municipality,Ohio
+municipality,Columbus,municipality,Ohio
+municipality,Dayton,municipality,Ohio
+municipality,Dublin,municipality,Ohio
+municipality,East Liverpool,municipality,Ohio
+municipality,Euclid,municipality,Ohio
+municipality,Fairborn,municipality,Ohio
+municipality,Fairfield,municipality,Ohio
+municipality,Findlay,municipality,Ohio
+municipality,Grove City,municipality,Ohio
+municipality,Hamilton,municipality,Ohio
+municipality,Huber Heights,municipality,Ohio
+municipality,Kent,municipality,Ohio
+municipality,Kettering,municipality,Ohio
+municipality,Lakewood,municipality,Ohio
+municipality,Lima,municipality,Ohio
+municipality,Lorain,municipality,Ohio
+municipality,Mansfield,municipality,Ohio
+municipality,Marion,municipality,Ohio
+municipality,Mason,municipality,Ohio
+municipality,Mentor,municipality,Ohio
+municipality,Middletown,municipality,Ohio
+municipality,New Philadelphia,municipality,Ohio
+municipality,North Royalton,municipality,Ohio
+municipality,Parma,municipality,Ohio
+municipality,Portsmouth,municipality,Ohio
+municipality,Reynoldsburg,municipality,Ohio
+municipality,Sandusky,municipality,Ohio
+municipality,Springfield,municipality,Ohio
+municipality,Strongsville,municipality,Ohio
+municipality,Toledo,municipality,Ohio
+municipality,Upper Arlington,municipality,Ohio
+municipality,Wooster,municipality,Ohio
+municipality,Youngstown,municipality,Ohio
+municipality,Broken Arrow,municipality,Oklahoma
+municipality,Edmond,municipality,Oklahoma
+municipality,Enid,municipality,Oklahoma
+municipality,Lawton,municipality,Oklahoma
+municipality,Midwest City,municipality,Oklahoma
+municipality,Moore,municipality,Oklahoma
+municipality,Muskogee,municipality,Oklahoma
+municipality,Norman,municipality,Oklahoma
+municipality,Oklahoma City,municipality,Oklahoma
+municipality,Owasso,municipality,Oklahoma
+municipality,Shawnee,municipality,Oklahoma
+municipality,Stillwater,municipality,Oklahoma
+municipality,Tulsa,municipality,Oklahoma
+municipality,Albany,municipality,Oregon
+municipality,Beaverton,municipality,Oregon
+municipality,Coos Bay,municipality,Oregon
+municipality,Corvallis,municipality,Oregon
+municipality,Eugene,municipality,Oregon
+municipality,Grants Pass,municipality,Oregon
+municipality,Gresham,municipality,Oregon
+municipality,Hillsboro,municipality,Oregon
+municipality,Keizer,municipality,Oregon
+municipality,Klamath Falls,municipality,Oregon
+municipality,Lake Oswego,municipality,Oregon
+municipality,McMinnville,municipality,Oregon
+municipality,Medford,municipality,Oregon
+municipality,Oregon City,municipality,Oregon
+municipality,Portland,municipality,Oregon
+municipality,Redmond,municipality,Oregon
+municipality,Salem,municipality,Oregon
+municipality,Salem / Portland,municipality,Oregon
+municipality,Springfield,municipality,Oregon
+municipality,Tigard,municipality,Oregon
+municipality,Woodburn,municipality,Oregon
+municipality,Allentown,municipality,Pennsylvania
+municipality,Altoona,municipality,Pennsylvania
+municipality,Bethel Park,municipality,Pennsylvania
+municipality,Bloomsburg,municipality,Pennsylvania
+municipality,Butler,municipality,Pennsylvania
+municipality,Chambersburg,municipality,Pennsylvania
+municipality,Chester,municipality,Pennsylvania
+municipality,Erie,municipality,Pennsylvania
+municipality,Hanover,municipality,Pennsylvania
+municipality,Harrisburg,municipality,Pennsylvania
+municipality,Johnstown,municipality,Pennsylvania
+municipality,Lancaster,municipality,Pennsylvania
+municipality,Milton,municipality,Pennsylvania
+municipality,Monessen,municipality,Pennsylvania
+municipality,New Castle,municipality,Pennsylvania
+municipality,Philadelphia,municipality,Pennsylvania
+municipality,Pittsburgh,municipality,Pennsylvania
+municipality,Pottstown,municipality,Pennsylvania
+municipality,Reading,municipality,Pennsylvania
+municipality,Scranton,municipality,Pennsylvania
+municipality,State College,municipality,Pennsylvania
+municipality,Uniontown,municipality,Pennsylvania
+municipality,Wilkes-Barre,municipality,Pennsylvania
+municipality,Williamsport,municipality,Pennsylvania
+municipality,San Juan,municipality,Puerto Rico
+municipality,Cranston,municipality,Rhode Island
+municipality,East Providence,municipality,Rhode Island
+municipality,Pawtucket,municipality,Rhode Island
+municipality,Providence,municipality,Rhode Island
+municipality,Warwick,municipality,Rhode Island
+municipality,Woonsocket,municipality,Rhode Island
+municipality,Aiken,municipality,South Carolina
+municipality,Beaufort,municipality,South Carolina
+municipality,Charleston,municipality,South Carolina
+municipality,Columbia,municipality,South Carolina
+municipality,Greenville,municipality,South Carolina
+municipality,Greenwood,municipality,South Carolina
+municipality,Hilton Head Island,municipality,South Carolina
+municipality,Myrtle Beach,municipality,South Carolina
+municipality,Orangeburg,municipality,South Carolina
+municipality,Rock Hill,municipality,South Carolina
+municipality,Spartanburg,municipality,South Carolina
+municipality,Summerville,municipality,South Carolina
+municipality,Sumter,municipality,South Carolina
+municipality,Rapid City,municipality,South Dakota
+municipality,Sioux Falls,municipality,South Dakota
+municipality,Bartlett,municipality,Tennessee
+municipality,Bristol,municipality,Tennessee
+municipality,Chattanooga,municipality,Tennessee
+municipality,Clarksville,municipality,Tennessee
+municipality,Cleveland,municipality,Tennessee
+municipality,Collierville,municipality,Tennessee
+municipality,Cookeville,municipality,Tennessee
+municipality,Franklin,municipality,Tennessee
+municipality,Gallatin,municipality,Tennessee
+municipality,Germantown,municipality,Tennessee
+municipality,Hendersonville,municipality,Tennessee
+municipality,Jackson,municipality,Tennessee
+municipality,Johnson City,municipality,Tennessee
+municipality,Kingsport,municipality,Tennessee
+municipality,Knoxville,municipality,Tennessee
+municipality,La Vergne,municipality,Tennessee
+municipality,Lebanon,municipality,Tennessee
+municipality,Memphis,municipality,Tennessee
+municipality,Morristown,municipality,Tennessee
+municipality,Mount Juliet,municipality,Tennessee
+municipality,Murfreesboro,municipality,Tennessee
+municipality,Nashville,municipality,Tennessee
+municipality,Smyrna,municipality,Tennessee
+municipality,Spring Hill,municipality,Tennessee
+municipality,Abilene,municipality,Texas
+municipality,Allen,municipality,Texas
+municipality,Amarillo,municipality,Texas
+municipality,Arlington,municipality,Texas
+municipality,Austin,municipality,Texas
+municipality,Baytown,municipality,Texas
+municipality,Beaumont,municipality,Texas
+municipality,Bedford,municipality,Texas
+municipality,Brownsville,municipality,Texas
+municipality,Bryan,municipality,Texas
+municipality,Carrollton,municipality,Texas
+municipality,Cedar Park,municipality,Texas
+municipality,Cleburne,municipality,Texas
+municipality,College Station,municipality,Texas
+municipality,Conroe,municipality,Texas
+municipality,Copperas Cove,municipality,Texas
+municipality,Corpus Christi,municipality,Texas
+municipality,Dallas,municipality,Texas
+municipality,DeSoto,municipality,Texas
+municipality,Deer Park,municipality,Texas
+municipality,Denton,municipality,Texas
+municipality,Eagle Pass,municipality,Texas
+municipality,Edinburg,municipality,Texas
+municipality,El Paso,municipality,Texas
+municipality,Euless,municipality,Texas
+municipality,Farmers Branch,municipality,Texas
+municipality,Forney,municipality,Texas
+municipality,Fort Worth,municipality,Texas
+municipality,Friendswood,municipality,Texas
+municipality,Frisco,municipality,Texas
+municipality,Galveston,municipality,Texas
+municipality,Garland,municipality,Texas
+municipality,Georgetown,municipality,Texas
+municipality,Grand Prairie,municipality,Texas
+municipality,Grapevine,municipality,Texas
+municipality,Harlingen,municipality,Texas
+municipality,Houston,municipality,Texas
+municipality,Huntsville,municipality,Texas
+municipality,Irving,municipality,Texas
+municipality,Keller,municipality,Texas
+municipality,Killeen,municipality,Texas
+municipality,Kyle,municipality,Texas
+municipality,La Porte,municipality,Texas
+municipality,Lake Jackson,municipality,Texas
+municipality,Lancaster,municipality,Texas
+municipality,Laredo,municipality,Texas
+municipality,League City,municipality,Texas
+municipality,Leander,municipality,Texas
+municipality,Little Elm,municipality,Texas
+municipality,Longview,municipality,Texas
+municipality,Lubbock,municipality,Texas
+municipality,Lufkin,municipality,Texas
+municipality,McAllen,municipality,Texas
+municipality,McKinney,municipality,Texas
+municipality,Midland,municipality,Texas
+municipality,Mission,municipality,Texas
+municipality,Missouri City,municipality,Texas
+municipality,Nacogdoches,municipality,Texas
+municipality,Odessa,municipality,Texas
+municipality,Pasadena,municipality,Texas
+municipality,Pearland,municipality,Texas
+municipality,Pflugerville,municipality,Texas
+municipality,Pharr,municipality,Texas
+municipality,Plano,municipality,Texas
+municipality,Port Arthur,municipality,Texas
+municipality,Richardson,municipality,Texas
+municipality,Rio Grande City,municipality,Texas
+municipality,Rockwall,municipality,Texas
+municipality,Rosenberg,municipality,Texas
+municipality,Round Rock,municipality,Texas
+municipality,San Angelo,municipality,Texas
+municipality,San Antonio,municipality,Texas
+municipality,San Juan,municipality,Texas
+municipality,Schertz,municipality,Texas
+municipality,Sherman,municipality,Texas
+municipality,Socorro,municipality,Texas
+municipality,Southlake,municipality,Texas
+municipality,Sugar Land,municipality,Texas
+municipality,Temple,municipality,Texas
+municipality,Texarkana,municipality,Texas
+municipality,Texas City,municipality,Texas
+municipality,The Colony,municipality,Texas
+municipality,Tyler,municipality,Texas
+municipality,Waxahachie,municipality,Texas
+municipality,Weslaco,municipality,Texas
+municipality,Wichita Falls,municipality,Texas
+municipality,Wylie,municipality,Texas
+municipality,Herriman,municipality,Utah
+municipality,Holladay,municipality,Utah
+municipality,Kaysville,municipality,Utah
+municipality,Layton,municipality,Utah
+municipality,Lehi,municipality,Utah
+municipality,Logan,municipality,Utah
+municipality,Midvale,municipality,Utah
+municipality,Murray,municipality,Utah
+municipality,Ogden,municipality,Utah
+municipality,Orem,municipality,Utah
+municipality,Pleasant Grove,municipality,Utah
+municipality,Provo,municipality,Utah
+municipality,Riverton,municipality,Utah
+municipality,Roy,municipality,Utah
+municipality,Salt Lake City,municipality,Utah
+municipality,South Jordan,municipality,Utah
+municipality,Taylorsville,municipality,Utah
+municipality,Tooele,municipality,Utah
+municipality,West Jordan,municipality,Utah
+municipality,West Valley City,municipality,Utah
+municipality,Burlington,municipality,Vermont
+municipality,Alexandria,municipality,Virginia
+municipality,Blacksburg,municipality,Virginia
+municipality,Charlottesville,municipality,Virginia
+municipality,Chesapeake,municipality,Virginia
+municipality,Danville,municipality,Virginia
+municipality,Fredericksburg,municipality,Virginia
+municipality,Hampton,municipality,Virginia
+municipality,Harrisonburg,municipality,Virginia
+municipality,Leesburg / Ashburn,municipality,Virginia
+municipality,Lynchburg,municipality,Virginia
+municipality,Manassas,municipality,Virginia
+municipality,Martinsville,municipality,Virginia
+municipality,Newport News,municipality,Virginia
+municipality,Norfolk,municipality,Virginia
+municipality,Petersburg,municipality,Virginia
+municipality,Portsmouth,municipality,Virginia
+municipality,Richmond,municipality,Virginia
+municipality,Roanoke,municipality,Virginia
+municipality,Staunton,municipality,Virginia
+municipality,Virginia Beach,municipality,Virginia
+municipality,Williamsburg,municipality,Virginia
+municipality,Winchester,municipality,Virginia
+municipality,Auburn,municipality,Washington
+municipality,Bellevue,municipality,Washington
+municipality,Bellingham,municipality,Washington
+municipality,Bothell,municipality,Washington
+municipality,Bremerton,municipality,Washington
+municipality,Burien,municipality,Washington
+municipality,Centralia,municipality,Washington
+municipality,Des Moines,municipality,Washington
+municipality,Edmonds,municipality,Washington
+municipality,Everett,municipality,Washington
+municipality,Federal Way,municipality,Washington
+municipality,Issaquah,municipality,Washington
+municipality,Kennewick,municipality,Washington
+municipality,Kent,municipality,Washington
+municipality,Kirkland,municipality,Washington
+municipality,Lacey,municipality,Washington
+municipality,Lake Stevens,municipality,Washington
+municipality,Lakewood,municipality,Washington
+municipality,Longview,municipality,Washington
+municipality,Lynnwood,municipality,Washington
+municipality,Marysville,municipality,Washington
+municipality,Moses Lake,municipality,Washington
+municipality,Mount Vernon,municipality,Washington
+municipality,Oak Harbor,municipality,Washington
+municipality,Olympia,municipality,Washington
+municipality,Pasco,municipality,Washington
+municipality,Pullman,municipality,Washington
+municipality,Puyallup,municipality,Washington
+municipality,Redmond,municipality,Washington
+municipality,Renton,municipality,Washington
+municipality,Richland,municipality,Washington
+municipality,Sammamish,municipality,Washington
+municipality,Seattle,municipality,Washington
+municipality,Shoreline,municipality,Washington
+municipality,Spokane,municipality,Washington
+municipality,Spokane Valley,municipality,Washington
+municipality,Tacoma,municipality,Washington
+municipality,University Place,municipality,Washington
+municipality,Vancouver,municipality,Washington
+municipality,Walla Walla,municipality,Washington
+municipality,Wenatchee,municipality,Washington
+municipality,Yakima,municipality,Washington
+municipality,Beckley,municipality,West Virginia
+municipality,Bluefield,municipality,West Virginia
+municipality,Charleston,municipality,West Virginia
+municipality,Clarksburg,municipality,West Virginia
+municipality,Fairmont,municipality,West Virginia
+municipality,Huntington,municipality,West Virginia
+municipality,Morgantown,municipality,West Virginia
+municipality,Weirton,municipality,West Virginia
+municipality,Wheeling,municipality,West Virginia
+municipality,Appleton,municipality,Wisconsin
+municipality,Beloit,municipality,Wisconsin
+municipality,Brookfield,municipality,Wisconsin
+municipality,Eau Claire,municipality,Wisconsin
+municipality,Fond du Lac,municipality,Wisconsin
+municipality,Green Bay,municipality,Wisconsin
+municipality,Janesville,municipality,Wisconsin
+municipality,Kenosha,municipality,Wisconsin
+municipality,La Crosse,municipality,Wisconsin
+municipality,Madison,municipality,Wisconsin
+municipality,Manitowoc,municipality,Wisconsin
+municipality,Milwaukee,municipality,Wisconsin
+municipality,New Berlin,municipality,Wisconsin
+municipality,Oak Creek,municipality,Wisconsin
+municipality,Oshkosh,municipality,Wisconsin
+municipality,Sheboygan,municipality,Wisconsin
+municipality,Stevens Point,municipality,Wisconsin
+municipality,Sun Prairie,municipality,Wisconsin
+municipality,Waukesha,municipality,Wisconsin
+municipality,Wausau,municipality,Wisconsin
+municipality,Wauwatosa,municipality,Wisconsin
+municipality,West Allis,municipality,Wisconsin
+municipality,West Bend,municipality,Wisconsin
+municipality,Casper,municipality,Wyoming
+municipality,Cheyenne,municipality,Wyoming
+municipality,Gillette,municipality,Wyoming
+municipality,Laramie,municipality,Wyoming
