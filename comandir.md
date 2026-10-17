@@ -670,3 +670,28 @@ This addendum is newer than the original snapshot above; earlier entries are ret
      - Clicking any position card spotlights that specific office holder, smoothly expanding their verified `PersonCard` with full contact details, `.gov` credentials, and sources.
   2. Integrated into `site/src/app/states/[code]/page.tsx`.
 - **Verification:** Production build `npm --prefix site run build` exited with **code 0** (all 141 pages prerendered cleanly).
+
+### Antigravity (CLI) — Public Repository Setup, SQLite DB, Launch Scripts & README Tutorial — 2026-10-17 17:35 UTC+3
+
+- **Agent/Tool:** Antigravity CLI.
+- **Task:** Push project `/home/fsociety/Documents/usman/first task` to public GitHub repository `https://github.com/PtitsuEm/USA.git`. Ensure public repository hygiene (zero leaks of temporary scratch data, build artifacts, or private secrets), package the database and site launch scripts cleanly, and craft a complete README cloning and execution manual.
+- **Actions Executed:**
+  1. **Security & Public Repo Hygiene:**
+     - Updated `.gitignore` to strictly exclude `site/node_modules/`, `site/.next/`, temporary `scratch/` (including 20MB archive and test scripts), `.freebuff/`, Python caches `__pycache__/`, `.env*` secrets, and OS junk files.
+     - Scanned codebase for secrets, keys, and credentials; confirmed 100% clean public-domain official data only.
+  2. **Database Packaging & Launch Utilities:**
+     - Created `scripts/init_db.py` to compile all 10,337 contacts, 1,247 jurisdictions, 2,384 coverage records, and 110 relationships into a high-performance indexed SQLite database `data/officials.db` (5.4 MB).
+     - Created executable `start.sh` at repo root with automatic pre-flight dependency checks, automatic SQLite DB generation, dependency auto-installation, and single-command local server startup.
+     - Updated root `package.json` with standard npm workflows (`npm run dev`, `npm run build`, `npm start`, `npm run db:init`, `npm run dist:build`, `npm test`, `npm run validate`).
+     - Added standard MIT `LICENSE`.
+  3. **Documentation:**
+     - Authored a comprehensive bilingual tutorial in `README.md` covering repo cloning, system prerequisites (Node.js 18+, Python 3.9+), automatic/manual startup instructions, SQLite schema & SQL query examples, Excel/CSV structure, data rebuilding, and public safety standards.
+  4. **Git Remote & Deployment:**
+     - Configured remote `origin` to `https://github.com/PtitsuEm/USA.git`.
+     - Staged and committed 104 tracked project files (`89569b5`).
+     - Successfully pushed `main` branch to GitHub remote via authenticated `gh auth setup-git`.
+- **Verification:**
+  - `python3 -m unittest discover tests`: 30/30 tests passed.
+  - `python3 scripts/validate_contacts.py`: 0 errors.
+  - `npm --prefix site run build`: 141 static pages compiled and prerendered cleanly.
+  - `gh repo view PtitsuEm/USA`: Repository online and verified.
